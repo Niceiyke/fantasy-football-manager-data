@@ -1,0 +1,7 @@
+.vscode
+__pycache__
+team_1518207_data23_24
+data/*/players/
+data/*/player_idlist.csv
+reports/
+team_*/

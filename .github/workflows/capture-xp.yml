@@ -1,0 +1,59 @@
+name: Capture Next GW xP
+
+on:
+  workflow_dispatch:
+    inputs:
+      season:
+        description: Season folder
+        required: false
+      gw:
+        description: Optional explicit gameweek number
+        required: false
+      target:
+        description: Auto target when gw is blank
+        required: false
+        default: next
+  schedule:
+    - cron: "0 9 * * 2"
+    - cron: "0 9 * * 5"
+
+permissions:
+  contents: write
+
+jobs:
+  capture:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Capture xP
+        run: |
+          if [ -n "${{ github.event.inputs.gw }}" ]; then
+            if [ -n "${{ github.event.inputs.season }}" ]; then
+              python automation.py capture-xp --season "${{ github.event.inputs.season }}" --gw "${{ github.event.inputs.gw }}"
+            else
+              python automation.py capture-xp --gw "${{ github.event.inputs.gw }}"
+            fi
+          else
+            if [ -n "${{ github.event.inputs.season }}" ]; then
+              python automation.py capture-xp --season "${{ github.event.inputs.season }}" --target "${{ github.event.inputs.target || 'next' }}"
+            else
+              python automation.py capture-xp --target "${{ github.event.inputs.target || 'next' }}"
+            fi
+          fi
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/*/gws/xP*.csv
+          git diff --cached --quiet || git commit -m "Capture xP snapshot"
+          git push
