@@ -38,10 +38,44 @@ def refresh_player_histories(players_dir, player_ids):
 
 def write_expected_points(base_dir, gw, data):
     gw_dir = os.path.join(base_dir, "gws")
+    os.makedirs(gw_dir, exist_ok=True)
     out_path = os.path.join(gw_dir, f"xP{gw}.csv")
     rows = [{"id": e["id"], "xP": e["ep_this"]} for e in data["elements"]]
     with open(out_path, "w", newline="", encoding="utf-8") as outf:
         writer = csv.DictWriter(outf, fieldnames=["id", "xP"])
+        writer.writeheader()
+        writer.writerows(rows)
+
+
+def write_player_status_snapshot(base_dir, gw, data):
+    gw_dir = os.path.join(base_dir, "gws")
+    os.makedirs(gw_dir, exist_ok=True)
+    out_path = os.path.join(gw_dir, f"status{gw}.csv")
+    fieldnames = [
+        "id",
+        "status",
+        "news",
+        "chance_of_playing_this_round",
+        "chance_of_playing_next_round",
+    ]
+    rows = []
+    for player in data["elements"]:
+        rows.append(
+            {
+                "id": player["id"],
+                "status": player.get("status", ""),
+                "news": player.get("news", ""),
+                "chance_of_playing_this_round": player.get(
+                    "chance_of_playing_this_round", ""
+                ),
+                "chance_of_playing_next_round": player.get(
+                    "chance_of_playing_next_round", ""
+                ),
+            }
+        )
+
+    with open(out_path, "w", newline="", encoding="utf-8") as outf:
+        writer = csv.DictWriter(outf, fieldnames=fieldnames)
         writer.writeheader()
         writer.writerows(rows)
 
@@ -60,6 +94,8 @@ def update_gameweek(season, gw, write_xp=False):
     if write_xp:
         print(f"Writing xP snapshot for GW{gw}")
         write_expected_points(base_dir, gw, data)
+        print(f"Writing player status snapshot for GW{gw}")
+        write_player_status_snapshot(base_dir, gw, data)
 
     with tempfile.TemporaryDirectory(prefix=f"fpl-{season}-gw{gw}-") as temp_dir:
         players_dir = os.path.join(temp_dir, "players") + "/"
@@ -83,7 +119,7 @@ def main():
     parser.add_argument(
         "--write-xp",
         action="store_true",
-        help="Write an xP snapshot for the chosen GW using the current bootstrap payload.",
+        help="Write xP and player status snapshots for the chosen GW using the current bootstrap payload.",
     )
     args = parser.parse_args()
 

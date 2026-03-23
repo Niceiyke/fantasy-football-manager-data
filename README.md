@@ -28,6 +28,7 @@ Maintained files per season:
 - `data/<season>/fixtures.csv`
 - `data/<season>/teams.csv`
 - `data/<season>/gws/xP<gw>.csv` when captured before deadline
+- `data/<season>/gws/status<gw>.csv` when captured before deadline
 
 Everything else has been trimmed out to keep the repo lighter and easier to maintain.
 
@@ -55,6 +56,9 @@ Each season folder is structured around the files that matter most for analytics
 
 - `gws/xP<gw>.csv`
   Saved expected-points snapshot for a given gameweek, captured from FPL live data before that week starts.
+
+- `gws/status<gw>.csv`
+  Saved player availability snapshot for a given gameweek, including fields like `status`, `news`, and chance-of-playing values before they change later.
 
 ## What Each File Is For
 
@@ -90,6 +94,11 @@ Each season folder is structured around the files that matter most for analytics
 - Important if you care about preserving historical FPL expected points.
 - Once a gameweek passes, true historical FPL xP is usually not recoverable unless it was saved ahead of time.
 
+`status<gw>.csv`
+
+- Important if you care about preserving injury, suspension, and availability context before that gameweek starts.
+- Useful because FPL player status and news text are live fields that change and can disappear later.
+
 ## Update Workflow
 
 There are two different update moments each week.
@@ -105,6 +114,7 @@ python automation.py capture-xp
 This writes:
 
 - `data/<season>/gws/xP<gw>.csv`
+- `data/<season>/gws/status<gw>.csv`
 
 You can also force a specific week:
 
@@ -169,6 +179,7 @@ This repo stores historical FPL expected points as `xP<gw>.csv`.
 Important caveat:
 
 - repo `xP` is captured from FPL live `ep_this`
+- player availability is captured from live `status`, `news`, `chance_of_playing_this_round`, and `chance_of_playing_next_round`
 - if a snapshot was not saved before that gameweek passed, it usually cannot be reconstructed later
 - actual gameweek stats can still be rebuilt from FPL player history, but historical FPL xP usually cannot
 
@@ -218,6 +229,7 @@ python update_fixtures.py --season 2025-26
 Files worth checking before commit:
 
 - `data/<season>/gws/xP<gw>.csv`
+- `data/<season>/gws/status<gw>.csv`
 - `data/<season>/gws/gw<gw>.csv`
 - `data/<season>/gws/merged_gw.csv`
 - `data/<season>/players_raw.csv`

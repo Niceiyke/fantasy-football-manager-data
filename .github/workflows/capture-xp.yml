@@ -34,7 +34,7 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Capture xP
+      - name: Capture xP and player status
         run: |
           if [ -n "${{ github.event.inputs.gw }}" ]; then
             if [ -n "${{ github.event.inputs.season }}" ]; then
@@ -54,6 +54,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/*/gws/xP*.csv
-          git diff --cached --quiet || git commit -m "Capture xP snapshot"
+          git add data/*/gws/xP*.csv data/*/gws/status*.csv
+          git diff --cached --quiet || git commit -m "Capture xP and player status snapshot"
           git push

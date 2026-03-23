@@ -3,7 +3,11 @@ import os
 from datetime import datetime, timezone
 
 from getters import get_data
-from update_gameweek import update_gameweek, write_expected_points
+from update_gameweek import (
+    update_gameweek,
+    write_expected_points,
+    write_player_status_snapshot,
+)
 
 
 def detect_season(today=None):
@@ -48,7 +52,8 @@ def capture_xp(season, gw=None, target="next"):
     base_dir = os.path.join("data", season) + "/"
     os.makedirs(os.path.join(base_dir, "gws"), exist_ok=True)
     write_expected_points(base_dir, resolved_gw, data)
-    print(f"Wrote xP snapshot for {season} GW{resolved_gw}")
+    write_player_status_snapshot(base_dir, resolved_gw, data)
+    print(f"Wrote xP and player status snapshots for {season} GW{resolved_gw}")
 
 
 def rebuild_latest_finished(season, gw=None):
