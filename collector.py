@@ -130,7 +130,7 @@ def collect_gw(gw, directory_name, output_dir, root_directory_name="data/2025-26
     names, positions = get_positions(root_directory_name)
     xPoints = get_expected_points(gw, output_dir)
     statuses = get_player_status_snapshot(gw, output_dir)
-    for root, dirs, files in os.walk(u"./" + directory_name):
+    for root, dirs, files in os.walk(directory_name):
         for fname in files:
             if fname == 'gw.csv':
                 fpath = os.path.join(root, fname)
