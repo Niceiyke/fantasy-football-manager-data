@@ -80,6 +80,54 @@ def write_player_status_snapshot(base_dir, gw, data):
         writer.writerows(rows)
 
 
+def write_ownership_snapshot(base_dir, gw, data):
+    gw_dir = os.path.join(base_dir, "gws")
+    os.makedirs(gw_dir, exist_ok=True)
+    out_path = os.path.join(gw_dir, f"ownership{gw}.csv")
+    fieldnames = ["id", "selected_by_percent", "selected_rank", "selected_rank_type"]
+    rows = []
+    for player in data["elements"]:
+        rows.append(
+            {
+                "id": player["id"],
+                "selected_by_percent": player.get("selected_by_percent", ""),
+                "selected_rank": player.get("selected_rank", ""),
+                "selected_rank_type": player.get("selected_rank_type", ""),
+            }
+        )
+
+    with open(out_path, "w", newline="", encoding="utf-8") as outf:
+        writer = csv.DictWriter(outf, fieldnames=fieldnames)
+        writer.writeheader()
+        writer.writerows(rows)
+
+
+def write_ownership_snapshot_from_players_raw(base_dir, gw):
+    players_raw_path = os.path.join(base_dir, "players_raw.csv")
+    gw_dir = os.path.join(base_dir, "gws")
+    os.makedirs(gw_dir, exist_ok=True)
+    out_path = os.path.join(gw_dir, f"ownership{gw}.csv")
+    fieldnames = ["id", "selected_by_percent", "selected_rank", "selected_rank_type"]
+    rows = []
+
+    with open(players_raw_path, "r", newline="", encoding="utf-8") as inf:
+        reader = csv.DictReader(inf)
+        for player in reader:
+            rows.append(
+                {
+                    "id": player["id"],
+                    "selected_by_percent": player.get("selected_by_percent", ""),
+                    "selected_rank": player.get("selected_rank", ""),
+                    "selected_rank_type": player.get("selected_rank_type", ""),
+                }
+            )
+
+    with open(out_path, "w", newline="", encoding="utf-8") as outf:
+        writer = csv.DictWriter(outf, fieldnames=fieldnames)
+        writer.writeheader()
+        writer.writerows(rows)
+
+
 def update_gameweek(season, gw, write_xp=False):
     base_dir = os.path.join("data", season) + "/"
     gw_dir = os.path.join(base_dir, "gws")
@@ -96,6 +144,8 @@ def update_gameweek(season, gw, write_xp=False):
         write_expected_points(base_dir, gw, data)
         print(f"Writing player status snapshot for GW{gw}")
         write_player_status_snapshot(base_dir, gw, data)
+        print(f"Writing ownership snapshot for GW{gw}")
+        write_ownership_snapshot(base_dir, gw, data)
 
     with tempfile.TemporaryDirectory(prefix=f"fpl-{season}-gw{gw}-") as temp_dir:
         players_dir = os.path.join(temp_dir, "players") + "/"
@@ -119,7 +169,7 @@ def main():
     parser.add_argument(
         "--write-xp",
         action="store_true",
-        help="Write xP and player status snapshots for the chosen GW using the current bootstrap payload.",
+        help="Write xP, player status, and ownership snapshots for the chosen GW using the current bootstrap payload.",
     )
     args = parser.parse_args()
 

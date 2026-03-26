@@ -6,6 +6,8 @@ from getters import get_data
 from update_gameweek import (
     update_gameweek,
     write_expected_points,
+    write_ownership_snapshot,
+    write_ownership_snapshot_from_players_raw,
     write_player_status_snapshot,
 )
 
@@ -53,7 +55,10 @@ def capture_xp(season, gw=None, target="next"):
     os.makedirs(os.path.join(base_dir, "gws"), exist_ok=True)
     write_expected_points(base_dir, resolved_gw, data)
     write_player_status_snapshot(base_dir, resolved_gw, data)
-    print(f"Wrote xP and player status snapshots for {season} GW{resolved_gw}")
+    write_ownership_snapshot(base_dir, resolved_gw, data)
+    print(
+        f"Wrote xP, player status, and ownership snapshots for {season} GW{resolved_gw}"
+    )
 
 
 def rebuild_latest_finished(season, gw=None):
@@ -63,11 +68,22 @@ def rebuild_latest_finished(season, gw=None):
     update_gameweek(season, resolved_gw, write_xp=False)
 
 
+def backfill_ownership(season, gw):
+    season = resolve_season(season)
+    base_dir = os.path.join("data", season) + "/"
+    write_ownership_snapshot_from_players_raw(base_dir, gw)
+    print(
+        f"Backfilled ownership snapshot for {season} GW{gw} from players_raw.csv"
+    )
+
+
 def main():
     parser = argparse.ArgumentParser(description="Automation helpers for FPL data updates.")
     subparsers = parser.add_subparsers(dest="command", required=True)
 
-    xp_parser = subparsers.add_parser("capture-xp", help="Capture an xP snapshot")
+    xp_parser = subparsers.add_parser(
+        "capture-xp", help="Capture pre-deadline GW snapshots"
+    )
     xp_parser.add_argument(
         "--season",
         help="Season folder, e.g. 2025-26. Defaults to the active season.",
@@ -89,12 +105,24 @@ def main():
     )
     rebuild_parser.add_argument("--gw", type=int)
 
+    ownership_parser = subparsers.add_parser(
+        "backfill-ownership",
+        help="Backfill an ownership snapshot from players_raw.csv",
+    )
+    ownership_parser.add_argument(
+        "--season",
+        help="Season folder, e.g. 2025-26. Defaults to the active season.",
+    )
+    ownership_parser.add_argument("--gw", type=int, required=True)
+
     args = parser.parse_args()
 
     if args.command == "capture-xp":
         capture_xp(args.season, gw=args.gw, target=args.target)
     elif args.command == "rebuild-latest":
         rebuild_latest_finished(args.season, gw=args.gw)
+    elif args.command == "backfill-ownership":
+        backfill_ownership(args.season, gw=args.gw)
 
 
 if __name__ == "__main__":

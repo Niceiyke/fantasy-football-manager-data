@@ -297,6 +297,9 @@ Individual gameweek performance data for all players.
 | Column | Type | Description |
 |--------|------|-------------|
 | `xP` | float | Expected points (predicted before match) |
+| `selected_by_percent` | str | Ownership percentage snapshot captured before the GW deadline |
+| `selected_rank` | int | Global ownership rank snapshot captured before the GW deadline |
+| `selected_rank_type` | int | Position-specific ownership rank snapshot captured before the GW deadline |
 | `value` | int | Player price at this gameweek (in £0.1m) |
 | `selected` | int | Number of managers who owned this player |
 | `transfers_in` | int | Transfers in this GW |
@@ -509,4 +512,3 @@ A scoring system used to determine bonus points (1-3) awarded to the top perform
 ## Contributing
 
 If you notice any missing or incorrect variable descriptions, please open an issue or submit a PR!
-

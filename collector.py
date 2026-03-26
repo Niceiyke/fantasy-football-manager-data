@@ -56,6 +56,23 @@ def get_player_status_snapshot(gw, directory):
         return statuses
     return statuses
 
+
+def get_ownership_snapshot(gw, directory):
+    ownership = {}
+    try:
+        fin = open(
+            os.path.join(directory, 'ownership' + str(gw) + '.csv'),
+            'r',
+            encoding="utf-8"
+        )
+        reader = csv.DictReader(fin)
+        for row in reader:
+            ownership[int(row['id'])] = row
+    except:
+        return ownership
+    return ownership
+
+
 def merge_gw(gw, gw_directory):
     """Merge a single gameweek file into merged_gw.csv.
     
@@ -130,6 +147,7 @@ def collect_gw(gw, directory_name, output_dir, root_directory_name="data/2025-26
     names, positions = get_positions(root_directory_name)
     xPoints = get_expected_points(gw, output_dir)
     statuses = get_player_status_snapshot(gw, output_dir)
+    ownership = get_ownership_snapshot(gw, output_dir)
     for root, dirs, files in os.walk(directory_name):
         for fname in files:
             if fname == 'gw.csv':
@@ -162,6 +180,16 @@ def collect_gw(gw, directory_name, output_dir, root_directory_name="data/2025-26
                         row['chance_of_playing_next_round'] = status_row.get(
                             'chance_of_playing_next_round', ''
                         )
+                        ownership_row = ownership.get(id, {})
+                        row['selected_by_percent'] = ownership_row.get(
+                            'selected_by_percent', ''
+                        )
+                        row['selected_rank'] = ownership_row.get(
+                            'selected_rank', ''
+                        )
+                        row['selected_rank_type'] = ownership_row.get(
+                            'selected_rank_type', ''
+                        )
                         rows += [row]
 
     fieldnames = [
@@ -173,6 +201,9 @@ def collect_gw(gw, directory_name, output_dir, root_directory_name="data/2025-26
         'news',
         'chance_of_playing_this_round',
         'chance_of_playing_next_round',
+        'selected_by_percent',
+        'selected_rank',
+        'selected_rank_type',
     ] + fieldnames
     outf = open(os.path.join(output_dir, "gw" + str(gw) + ".csv"), 'w', encoding="utf-8")
     writer = csv.DictWriter(outf, fieldnames=fieldnames, lineterminator='\n')
@@ -238,6 +269,7 @@ def regenerate_merged_gw(gw_directory):
     standard_order = [
         'name', 'position', 'team', 'xP', 'status', 'news',
         'chance_of_playing_this_round', 'chance_of_playing_next_round',
+        'selected_by_percent', 'selected_rank', 'selected_rank_type',
         'assists', 'bonus', 'bps', 
         'clean_sheets', 'creativity', 'element', 'expected_assists',
         'expected_goal_involvements', 'expected_goals', 'expected_goals_conceded',

@@ -29,6 +29,7 @@ Maintained files per season:
 - `data/<season>/teams.csv`
 - `data/<season>/gws/xP<gw>.csv` when captured before deadline
 - `data/<season>/gws/status<gw>.csv` when captured before deadline
+- `data/<season>/gws/ownership<gw>.csv` when captured before deadline
 
 Everything else has been trimmed out to keep the repo lighter and easier to maintain.
 
@@ -59,6 +60,9 @@ Each season folder is structured around the files that matter most for analytics
 
 - `gws/status<gw>.csv`
   Saved player availability snapshot for a given gameweek, including fields like `status`, `news`, and chance-of-playing values before they change later.
+
+- `gws/ownership<gw>.csv`
+  Saved player ownership snapshot for a given gameweek, including fields like `selected_by_percent` and ownership ranks before they move later.
 
 ## What Each File Is For
 
@@ -99,13 +103,18 @@ Each season folder is structured around the files that matter most for analytics
 - Important if you care about preserving injury, suspension, and availability context before that gameweek starts.
 - Useful because FPL player status and news text are live fields that change and can disappear later.
 
+`ownership<gw>.csv`
+
+- Important if you care about preserving pre-deadline ownership context for historical analysis.
+- Useful because FPL ownership percentages and ranks are live fields that move continuously throughout the week.
+
 ## Update Workflow
 
 There are two different update moments each week.
 
 ### 1. Before the deadline
 
-Capture the next gameweek's FPL expected-points snapshot:
+Capture the next gameweek's FPL expected-points, status, and ownership snapshots:
 
 ```bash
 python automation.py capture-xp
@@ -115,12 +124,21 @@ This writes:
 
 - `data/<season>/gws/xP<gw>.csv`
 - `data/<season>/gws/status<gw>.csv`
+- `data/<season>/gws/ownership<gw>.csv`
 
 You can also force a specific week:
 
 ```bash
 python automation.py capture-xp --season 2025-26 --gw 31
 ```
+
+If you need to recreate only an ownership snapshot from the ownership fields currently stored in `players_raw.csv`:
+
+```bash
+python automation.py backfill-ownership --season 2025-26 --gw 31
+```
+
+This is a repair utility, not true historical recovery. It copies whatever ownership values are currently in `players_raw.csv` into `ownership<gw>.csv`.
 
 ### 2. After the gameweek is finished
 
@@ -167,7 +185,7 @@ GitHub Actions workflows are included:
 
 Recommended usage:
 
-- run `Capture Next GW xP` before each deadline
+- run `Capture Next GW Snapshots` before each deadline
 - run `Update Latest Finished GW` after the final match of the week
 
 The workflows can run on schedule or manually from the GitHub Actions tab.
@@ -180,6 +198,7 @@ Important caveat:
 
 - repo `xP` is captured from FPL live `ep_this`
 - player availability is captured from live `status`, `news`, `chance_of_playing_this_round`, and `chance_of_playing_next_round`
+- ownership is captured from live `selected_by_percent`, `selected_rank`, and `selected_rank_type`
 - if a snapshot was not saved before that gameweek passed, it usually cannot be reconstructed later
 - actual gameweek stats can still be rebuilt from FPL player history, but historical FPL xP usually cannot
 
@@ -230,6 +249,7 @@ Files worth checking before commit:
 
 - `data/<season>/gws/xP<gw>.csv`
 - `data/<season>/gws/status<gw>.csv`
+- `data/<season>/gws/ownership<gw>.csv`
 - `data/<season>/gws/gw<gw>.csv`
 - `data/<season>/gws/merged_gw.csv`
 - `data/<season>/players_raw.csv`
