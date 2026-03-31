@@ -13,17 +13,17 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 13,a,,,
 14,u,has joined Morecambe on loan for the rest of the season.,0,0
 15,a,,,
-16,a,,100,100
+16,d,Knock - 75% chance of playing,100,75
 17,d,Knee injury - 75% chance of playing,75,75
-18,a,,100,100
+18,d,Knee injury - 75% chance of playing,100,75
 19,a,,100,100
 20,d,Hip injury - 75% chance of playing,100,75
-21,a,,100,100
+21,d,Knock - 75% chance of playing,100,75
 22,i,Foot injury - Unknown return date,0,0
 23,u,has joined Hamburger on loan for the rest of the season.,0,0
 24,a,,100,100
 25,u,has joined Marseille on loan for the rest of the season.,0,0
-26,a,,100,100
+26,d,Knee injury - 75% chance of playing,100,75
 28,u,has joined Shrewsbury Town on loan for the rest of the season.,0,0
 29,u,has joined Hamburger permanently.,0,0
 30,a,,100,100
@@ -33,7 +33,7 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 666,a,,100,100
 700,a,,100,100
 711,a,,,
-725,a,,100,100
+725,d,Muscle injury - 75% chance of playing,100,75
 759,a,,,
 32,a,,100,100
 33,a,,100,100
@@ -69,7 +69,7 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 64,a,,100,100
 65,u,has joined Huddersfield Town on loan for the rest of the season.,0,0
 389,a,,100,100
-456,a,,100,100
+456,d,Shoulder injury - 75% chance of playing,100,75
 688,a,,,
 699,a,,100,100
 701,u,has joined Annecy on loan for the rest of the season.,0,0
@@ -98,7 +98,7 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 195,a,,100,100
 196,u,has joined Sparta Rotterdam on loan for the rest of the season.,0,0
 197,u,has joined Sparta Prague on loan for the rest of the season.,0,0
-198,d,Achilles injury - 50% chance of playing,0,50
+198,a,,0,100
 199,a,,100,100
 200,a,,100,100
 201,u,has joined Maccabi Haifa permanently.,0,0
@@ -160,7 +160,7 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 97,a,,100,100
 98,a,,100,100
 99,u,has joined HNK Rijeka permanently.,0,0
-100,a,,,
+100,d,Knock - 75% chance of playing,,75
 391,a,,100,100
 685,a,,100,100
 687,a,,,
@@ -194,7 +194,7 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 117,u,has joined Kaiserslautern on loan for the rest of the season.,0,0
 118,u,Has joined Rangers on loan for the rest of the season.,0,0
 120,a,,100,100
-121,d,Knock - 75% chance of playing,75,75
+121,a,,75,100
 122,i,Knee injury - Expected back 01 Jun,0,0
 123,i,Knee injury - Expected back 01 Jun,0,0
 124,a,,100,100
@@ -317,7 +317,7 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 270,a,,100,100
 271,a,,100,100
 272,a,,100,100
-273,a,,100,100
+273,d,Knock - 75% chance of playing,100,75
 274,a,,,
 275,u,has joined AJ Auxerre permanently.,0,0
 276,a,,100,100
@@ -357,7 +357,7 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 296,a,,100,100
 297,u,has joined Stockport County on loan for the rest of the season.,0,0
 298,a,,,
-299,a,,100,100
+299,d,Foot injury - 75% chance of playing,100,75
 300,a,,,
 301,d,Knock - 25% chance of playing,25,25
 302,a,,100,100
@@ -384,7 +384,7 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 315,u,has joined Feyenoord on loan for the rest of the season.,0,0
 316,a,,100,100
 317,a,,100,100
-318,a,,100,100
+318,d,Back injury - 75% chance of playing,100,75
 319,a,,,
 320,a,,,
 321,a,,,
@@ -495,8 +495,8 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 405,a,,,
 406,a,,100,100
 407,a,,100,100
-408,a,,100,100
-409,a,,100,100
+408,d,Hamstring injury - 75% chance of playing,100,75
+409,d,Calf injury - 75% chance of playing,100,75
 410,a,,100,100
 411,a,,100,100
 412,u,Has joined Girona on loan for the rest of the season.,0,0
@@ -588,7 +588,7 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 488,d,Hamstring injury - 50% chance of playing,0,50
 489,a,,100,100
 490,a,,100,100
-491,d,Groin Injury - 75% chance of playing,75,75
+491,a,,75,100
 492,u,has joined Cadiz on loan for the rest of the season.,0,0
 494,a,,100,100
 495,u,Has departed the club as a free agent.,0,0
