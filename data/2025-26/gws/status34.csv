@@ -1,0 +1,829 @@
+id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
+1,a,,,
+2,a,,,
+3,u,Has joined Werder Bremen on loan for the rest of the season.,0,0
+4,a,,,
+5,a,,100,100
+6,a,,100,100
+7,d,Knock - 75% chance of playing,75,75
+8,d,Ankle injury - 75% chance of playing,75,75
+9,u,has joined Porto on loan for the rest of the season.,0,0
+10,a,,,
+11,a,,100,100
+13,a,,,
+14,u,has joined Morecambe on loan for the rest of the season.,0,0
+15,a,,,
+16,i,Achilles injury - Unknown return date,0,0
+17,a,,75,100
+18,a,,75,100
+19,a,,100,100
+20,a,,100,100
+21,a,,100,100
+22,i,Foot injury - Unknown return date,0,0
+23,u,has joined Hamburger on loan for the rest of the season.,0,0
+24,a,,100,100
+25,u,has joined Marseille on loan for the rest of the season.,0,0
+26,a,,100,100
+28,u,has joined Shrewsbury Town on loan for the rest of the season.,0,0
+29,u,has joined Hamburger permanently.,0,0
+30,a,,100,100
+31,a,,100,100
+266,a,,100,100
+662,a,,100,100
+666,a,,100,100
+700,a,,100,100
+711,a,,,
+725,a,,100,100
+759,a,,,
+32,a,,100,100
+33,a,,100,100
+34,u,Has joined Port Vale on loan for the rest of the season.,0,0
+35,u,Has joined Stevenage permanently.,0,0
+36,a,,100,100
+37,a,,100,100
+38,a,,100,100
+39,a,,,
+40,a,,100,100
+41,a,,100,100
+42,a,,100,100
+43,u,Has joined Girona permanently.,0,0
+44,a,,100,100
+45,u,has joined Rotherham on loan for the rest of the season.,0,0
+46,u,has joined Anderlecht on loan for the rest of the season.,0,0
+47,a,,100,100
+48,a,,100,100
+49,a,,100,100
+50,a,,100,100
+51,u,has joined Pisa on loan for the rest of the season.,0,0
+53,u,has joined Roma on loan for the rest of the season.,0,0
+54,a,,100,100
+55,a,,100,100
+56,u,Season-long loan to Benfica,0,0
+57,u,Has joined Preston North End on loan for the rest of the season.,0,0
+58,i,Knee injury - Expected back 01 Jun,0,0
+59,a,,100,100
+60,u,has joined Falkirk on loan for the rest of the season.,0,0
+61,u,Has joined Real Oviedo permanently.,0,0
+62,u,has joined West Brom on loan for the rest of the season.,0,0
+63,u,has joined Reading on loan for the rest of the season.,0,0
+64,a,,100,100
+65,u,has joined Huddersfield Town on loan for the rest of the season.,0,0
+389,a,,100,100
+456,a,,100,100
+688,a,,,
+699,a,,100,100
+701,u,has joined Annecy on loan for the rest of the season.,0,0
+702,a,,,
+703,a,,,
+710,a,,,
+719,a,,100,100
+754,a,,,
+757,a,,,
+768,a,,,
+781,a,,,
+792,a,,100,100
+808,a,,,
+183,a,,,
+184,u,has joined FC Fredericia permanently.,0,0
+185,a,,,
+186,i,Achilles injury - Unknown return date,0,0
+187,a,,100,100
+188,u,has joined Lugano permanently.,0,0
+189,u,Has joined Stockport County on loan for the rest of the season.,0,0
+190,a,,,
+191,a,,100,100
+192,a,,,
+193,a,,100,100
+194,i,Hamstring injury - Unknown return date,0,0
+195,a,,100,100
+196,u,has joined Sparta Rotterdam on loan for the rest of the season.,0,0
+197,u,has joined Sparta Prague on loan for the rest of the season.,0,0
+198,a,,100,100
+199,a,,100,100
+200,a,,100,100
+201,u,has joined Maccabi Haifa permanently.,0,0
+202,a,,100,100
+203,a,,,
+204,u,has joined Kocaelispor  permanently.,0,0
+205,i,Knee injury - Expected back 30 Sep,0,0
+206,a,,100,100
+207,d,Hamstring injury - 25% chance of playing,25,25
+208,u,has joined Paris FC on loan for the rest of the season.,0,0
+209,a,,100,100
+210,a,,,
+211,u,has joined Leicester City on loan for the rest of the season.,0,0
+212,u,Has joined Cercle Brugge on loan for the rest of the season.,0,0
+213,u,has joined Derby County on loan for the rest of the season.,0,0
+214,a,,100,100
+215,a,,100,100
+216,d,Lack of match fitness - 50% chance of playing,50,50
+217,a,,100,100
+218,a,,,
+219,u,has joined Blackpool on loan for the rest of the season.,0,0
+470,a,,100,100
+614,a,,100,100
+676,a,,100,100
+680,a,,100,100
+722,a,,,
+776,a,,,
+784,a,,,
+820,a,,,
+66,u,Has joined Botafogo permanently.,0,0
+67,a,,,
+68,u,has joined Leyton Orient on loan for the rest of the season.,0,0
+69,a,,,
+70,u,Has joined Lechia Gdansk on loan for the rest of the season.,0,0
+71,u,Has joined Paris Saint-Germain permanently.,0,0
+72,a,,100,100
+73,a,,100,100
+74,a,,,
+75,a,,100,100
+76,a,,,
+77,a,,,
+78,u,has joined Celtic on loan for the rest of the season.,0,0
+79,u,has joined West Bromwich Albion permanently.,0,0
+80,a,,100,100
+81,i,Knee injury - Expected back 09 May,0,0
+84,a,,100,100
+85,a,,100,100
+86,a,,100,100
+87,a,,100,100
+88,d,Lack of match fitness - 25% chance of playing,25,25
+89,u,has joined Midtjylland permanently.,0,0
+90,a,,100,100
+91,u,has joined Cruzeiro on loan for the rest of the season.,0,0
+92,u,has joined Auxerre permanently.,0,0
+93,u,has joined Marseille on loan for the rest of the season.,0,0
+94,u,has joined Novi Pazar on loan for the rest of the season.,0,0
+95,u,has joined Olympiakos permanently.,0,0
+96,u,has joined Barnet on loan for the rest of the season.,0,0
+97,a,,100,100
+98,a,,100,100
+99,u,has joined HNK Rijeka permanently.,0,0
+100,a,,100,100
+391,a,,100,100
+685,a,,100,100
+687,a,,,
+697,a,,,
+713,a,,,
+721,a,,100,100
+756,a,,,
+782,a,,,
+799,a,,,
+801,a,,,
+806,a,,,
+807,a,,,
+27,a,,100,100
+83,a,,100,100
+101,a,,100,100
+102,a,,,
+103,u,has joined Shrewsbury Town on loan for the rest of the season.,0,0
+104,a,,,
+105,a,,,
+106,a,,,
+107,a,,,
+108,a,,100,100
+109,i,Hamstring injury - Unknown return date,0,0
+110,a,,100,100
+111,a,,100,100
+112,u,Has joined Southampton permanently.,0,0
+113,a,,100,100
+114,u,has joined Celtic on loan for the rest of the season.,0,0
+115,u,has joined Dender on loan for the rest of the season.,0,0
+116,a,,100,100
+117,u,has joined Kaiserslautern on loan for the rest of the season.,0,0
+118,u,Has joined Rangers on loan for the rest of the season.,0,0
+120,a,,100,100
+121,a,,100,100
+122,i,Knee injury - Expected back 01 Jun,0,0
+123,i,Knee injury - Expected back 01 Jun,0,0
+124,i,Knock - Expected back 02 May,0,0
+125,i,Foot injury - Unknown return date,0,0
+126,a,,,
+127,u,has joined Swansea City on loan for the rest of the season.,0,0
+128,u,has joined Coventry City on loan for the rest of the season.,0,0
+129,a,,100,100
+130,a,,,
+131,u,has joined Oxford United on loan for the rest of the season.,0,0
+132,u,has joined Norwich City permanently.,0,0
+133,u,has joined Oxford United permanently.,0,0
+134,u,Has joined Wigan on loan for the rest of the season,0,0
+136,a,,100,100
+137,u,has joined Shrewsbury on loan for the rest of the season.,0,0
+748,d,Lack of match fitness - 25% chance of playing,25,25
+797,i,Knock - Unknown return date,0,0
+810,a,,,
+819,a,,,
+823,a,,,
+824,a,,,
+826,a,,,
+138,a,,,
+139,a,,,
+140,a,,,
+141,u,Has joined Coventry City on loan for the rest of the season.,0,0
+142,u,Has joined Union SG permanently,0,0
+143,a,,,
+144,u,has joined Paris FC on loan for the rest of the season.,0,0
+145,a,,100,100
+146,a,,0,100
+147,u,Has joined AC Milan permanently,0,0
+148,a,,,
+149,a,,100,100
+150,u,has joined Fiorentina permanently.,0,0
+151,a,,100,100
+152,a,,100,100
+153,i,Knee injury - Unknown return date,0,0
+154,u,has joined Blackburn Rovers on loan for the rest of the season.,0,0
+155,u,has joined Harrogate Town on loan until January.,0,0
+156,a,,,
+157,a,,100,100
+158,a,,100,100
+159,d,Muscle injury - 75% chance of playing,100,75
+160,a,,100,100
+161,u,has joined Strasbourg permanently.,0,0
+162,u,has joined Leipzig on loan for the rest of the season.,0,0
+163,a,,100,100
+164,a,,100,100
+165,u,has joined Lens permanently.,0,0
+166,a,,100,100
+167,a,,100,100
+169,d,Knee injury - 50% chance of playing,100,50
+170,d,Knock - 25% chance of playing,25,25
+171,u,has joined Middlesbrough on loan for the rest of the season.,0,0
+172,u,has joined Millwall on loan for the rest of the season.,0,0
+173,a,,100,100
+174,u,Has joined Swansea City on loan for the rest of the season.,0,0
+175,u,has joined Stevenage permanently.,0,0
+176,u,has joined Dinamo Bucharest permanently.,0,0
+177,u,Has joined Los Angeles FC on loan for the rest of the season.,0,0
+178,a,,100,100
+179,u,Has joined AS Roma on loan for the rest of the season,0,0
+180,i,Knee injury - Expected back 01 Jun,0,0
+181,a,,,
+744,a,,,
+761,a,,,
+783,a,,,
+795,a,,,
+220,a,,100,100
+221,d,Groin Injury - 25% chance of playing,25,25
+222,u,Has joined RC Strasbourg on loan for the rest of the season.,0,0
+223,a,,,
+224,a,,100,100
+225,d,Hamstring injury - 25% chance of playing,25,25
+226,a,,75,100
+227,d,Lack of match fitness - 25% chance of playing,25,25
+228,a,,100,100
+229,a,,100,100
+230,a,,100,100
+231,a,,100,100
+232,a,,100,100
+233,a,,100,100
+234,u,has joined Strasbourg on loan for the rest of the season.,0,0
+235,a,,100,100
+236,a,,100,100
+237,a,,100,100
+238,d,Hamstring injury - 75% chance of playing,100,75
+239,d,Hamstring injury - 25% chance of playing,25,25
+240,u,has joined AC Milan permanently.,0,0
+241,a,,100,100
+244,a,,100,100
+245,s,Suspended - unknown return date,0,0
+246,a,,100,100
+247,a,,100,100
+248,u,has joined River Plate on loan for the rest of the season.,0,0
+249,a,,,
+250,a,,100,100
+251,u,has joined Bayern Munich on loan for the rest of the season.,0,0
+252,a,,100,100
+453,a,,,
+672,a,,100,100
+743,a,,,
+789,a,,,
+803,a,,,
+253,a,,,
+254,a,,100,100
+255,a,,,
+256,a,,100,100
+257,a,,75,100
+258,a,,,
+259,a,,100,100
+261,a,,100,100
+262,a,,100,100
+263,a,,100,100
+264,u,Has joined Colorado Rapids permanently.,0,0
+265,a,,100,100
+267,a,,100,100
+268,i,Lack of match fitness - Expected back 01 Jun,0,0
+269,u,has joined Coventry City on loan for the rest of the season.,0,0
+270,a,,100,100
+271,a,,100,100
+272,a,,100,100
+273,d,Groin Injury - 75% chance of playing,75,75
+274,a,,,
+275,u,has joined AJ Auxerre permanently.,0,0
+276,a,,100,100
+277,u,Has joined Blackpool permanently.,0,0
+278,u,has joined Stoke City on loan for the rest of the season.,0,0
+279,u,Has joined CR Vasco da Gama on loan for the rest of the season.,0,0
+280,u,Has joined Derby County on loan for the rest of the season.,0,0
+281,a,,,
+282,u,has joined Portsmouth permanently.,0,0
+283,a,,100,100
+284,i,Hamstring injury - Expected back 01 Jun,0,0
+285,u,has joined RC Lens permanently.,0,0
+286,a,,,
+580,a,,,
+654,a,,100,100
+677,i,Knee injury - Expected back 02 May,0,0
+690,a,,100,100
+712,a,,100,100
+723,a,,100,100
+732,a,,,
+762,a,,,
+773,a,,,
+780,a,,,
+793,a,,,
+798,u,has joined West Brom on loan for the rest of the season.,0,0
+242,a,,100,100
+243,a,,100,100
+287,a,,,
+288,a,,100,100
+289,u,has joined Cardiff City permanently.,0,0
+290,d,Hamstring injury - 50% chance of playing,100,50
+291,a,,100,100
+292,a,,100,100
+293,a,,100,100
+294,a,,100,100
+295,a,,100,100
+296,a,,100,100
+297,u,has joined Stockport County on loan for the rest of the season.,0,0
+298,a,,,
+299,a,,100,100
+300,a,,,
+301,a,,100,100
+302,a,,100,100
+303,a,,,
+304,a,,100,100
+305,a,,100,100
+306,a,,,
+307,a,,,
+308,u,has joined Accrington on loan for the rest of the season.,0,0
+309,u,Has joined Bradford City permanently.,0,0
+310,a,,,
+311,d,Head injury - 75% chance of playing,,75
+312,u,has joined Rangers permanently.,0,0
+313,u,has joined Port Vale on loan for the rest of the season.,0,0
+419,i,Foot injury - Expected back 01 Jun,0,0
+630,a,,,
+667,a,,100,100
+704,u,has joined Stockport County on loan for the rest of the season.,0,0
+705,u,has joined Port Vale on loan for the rest of the season.,0,0
+707,a,,,
+728,a,,100,100
+779,a,,,
+314,a,,,
+315,u,has joined Feyenoord on loan for the rest of the season.,0,0
+316,a,,100,100
+317,a,,100,100
+318,a,,100,100
+319,a,,,
+320,a,,,
+321,a,,,
+322,i,Foot injury - Unknown return date,0,0
+323,a,,,
+324,d,Hamstring injury - 75% chance of playing,100,75
+325,a,,100,100
+327,u,has joined Palmeiras permanently.,0,0
+328,a,,100,100
+329,a,,100,100
+330,a,,,
+331,a,,100,100
+332,a,,100,100
+333,u,has joined Strasbourg permanently.,0,0
+334,u,Has joined Oxford United on loan for the rest of the season.,0,0
+335,a,,100,100
+336,a,,100,100
+337,a,,100,100
+338,a,,100,100
+424,a,,100,100
+664,a,,,
+727,a,,100,100
+731,i,Foot injury - Unknown return date,0,0
+737,a,,,
+770,a,,,
+786,a,,,
+168,a,,100,100
+339,a,,,
+340,a,,,
+341,a,,,
+342,a,,100,100
+343,a,,100,100
+344,a,,100,100
+345,a,,100,100
+346,a,,,
+347,a,,100,100
+348,a,,25,100
+349,u,has joined Werder Bremen on loan for the rest of the season.,0,0
+350,a,,,
+351,a,,100,100
+352,u,has joined ACF Fiorentina on loan for the rest of the season.,0,0
+353,d,Muscle injury - 25% chance of playing,25,25
+354,a,,100,100
+355,u,has joined Pogon Szczecin permanently.,0,0
+356,a,,,
+357,u,has joined Valencia on loan for the rest of the season.,0,0
+358,a,,100,100
+359,u,Has joined Doncaster Rovers on loan for the rest of the season.,0,0
+360,u,Has joined Hull City on loan for the rest of the season.,0,0
+361,u,has joined Hull City permanently.,0,0
+362,a,,100,100
+363,u,has departed the club as a free agent.,0,0
+364,u,Has joined RCD Mallorca on loan for the rest of the season.,0,0
+365,a,,100,100
+493,a,,100,100
+660,d,Ankle injury - 25% chance of playing,25,25
+665,a,,100,100
+691,a,,100,100
+698,a,,100,100
+706,a,,100,100
+741,u,has joined Rotherham United on loan for the rest of the season.,0,0
+787,a,,,
+366,i,Muscle injury - Unknown return date,0,0
+367,d,Knee injury - 75% chance of playing,,75
+368,a,,,
+369,a,,,
+370,a,,100,100
+371,a,,,
+372,a,,,
+373,a,,,
+374,a,,100,100
+375,i,Knee injury - Expected back 01 Jun,0,0
+376,i,Muscle injury - Unknown return date,0,0
+377,u,has joined AS Roma on loan for the rest of the season.,0,0
+378,a,,100,100
+379,a,,,
+380,a,,,
+381,a,,100,100
+382,a,,100,100
+383,u,Has joined Bayern Munch permanently.,0,0
+384,a,,100,100
+385,a,,100,100
+386,a,,100,100
+387,a,,100,100
+388,a,,100,100
+390,a,,100,100
+392,i,Foot injury - Unknown return date,0,0
+393,i,Hamstring injury - Unknown return date,0,0
+394,u,has joined Ajax on loan for the rest of the season.,0,0
+395,u,Has joined Lyon permanently.,0,0
+396,a,,,
+397,u,Has joined Al-Hilal permanently.,0,0
+398,i,Hamstring injury - Unknown return date,0,0
+499,a,,100,100
+661,i,Achilles injury - Expected back 01 Jul,0,0
+686,a,,,
+692,i,Knee injury - Expected back 01 Sep,0,0
+746,a,,,
+760,a,,,
+82,a,,100,100
+182,a,,,
+260,a,,100,100
+399,u,has joined Fenerbache permanently.,0,0
+401,a,,100,100
+402,a,,100,100
+403,i,Leg injury - Unknown return date,0,0
+404,u,has joined Inter Milan on loan for the rest of the season.,0,0
+405,a,,,
+406,a,,100,100
+407,a,,100,100
+408,i,Hamstring injury - Unknown return date,0,0
+409,a,,75,100
+410,a,,100,100
+411,a,,100,100
+412,u,Has joined Girona on loan for the rest of the season.,0,0
+413,a,,100,100
+414,a,,100,100
+415,a,,100,100
+416,a,,100,100
+417,a,,100,100
+418,a,,100,100
+420,u,has joined Galatasaray permanently.,0,0
+421,a,,100,100
+422,a,,100,100
+423,a,,100,100
+425,u,has joined Girona on loan for the rest of the season.,0,0
+427,a,,,
+428,a,,100,100
+429,u,has joined Sheffield United on loan for the rest of the season.,0,0
+430,a,,100,100
+736,a,,,
+739,u,has joined Leicester City on loan for the rest of the season.,0,0
+740,u,has joined Watford on loan for the rest of the season.,0,0
+742,a,,,
+763,a,,,
+764,a,,,
+794,a,,100,100
+119,d,Knock - 75% chance of playing,100,75
+431,a,,,
+432,u,has joined Trabzonspor on loan for the rest of the season.,0,0
+433,u,On loan to Shrewsbury Town,0,0
+434,a,,,
+435,a,,,
+436,i,Back injury - Unknown return date,0,0
+437,s,Suspended until 09 May,0,0
+438,a,,100,100
+439,a,,,
+440,a,,100,100
+441,i,Hamstring injury - Unknown return date,0,0
+442,a,,0,100
+443,a,,100,100
+444,d,Knock - 75% chance of playing,,75
+445,u,has joined Norwich City on loan for the rest of the season.,0,0
+446,a,,,
+447,a,,100,100
+448,a,,,
+449,a,,100,100
+450,a,,100,100
+451,u,Has joined Barcelona on loan for the rest of the season,0,0
+452,a,,100,100
+454,u,has joined Real Betis permanently.,0,0
+455,a,,100,100
+457,a,,100,100
+458,a,,75,100
+459,a,,,
+460,u,has joined Hull City on loan for the rest of the season.,0,0
+461,a,,,
+462,a,,,
+463,u,has joined Lausanne-Sport on loan for the rest of the season.,0,0
+464,u,has joined Leyton Orient on loan for the rest of the season.,0,0
+465,u,has joined Napoli on loan for the rest of the season.,0,0
+466,a,,100,100
+467,a,,,
+468,u,has joined Bradford City on loan for the rest of the season.,0,0
+681,a,,100,100
+733,a,,,
+755,a,,100,100
+769,a,,,
+771,a,,,
+788,a,,,
+827,a,,,
+52,a,,100,100
+135,a,,100,100
+469,a,,100,100
+471,a,,,
+472,u,Has joined Sevilla on loan for the rest of the season.,0,0
+473,a,,100,100
+474,i,Ankle injury - Expected back 10 May,0,0
+475,a,,100,100
+476,a,,100,100
+477,d,Thigh injury - 75% chance of playing,100,75
+478,a,,100,100
+479,i,Knee injury - Unknown return date,0,0
+480,u,has joined Leicester City permanently.,0,0
+481,a,,,
+482,u,has joined Bradford City on loan for the rest of the season.,0,0
+483,a,,,
+484,u,has joined Middlesbrough on loan for the rest of the season.,0,0
+485,d,Hip injury - 75% chance of playing,100,75
+486,a,,100,100
+487,a,,,
+488,a,,75,100
+489,a,,100,100
+490,s,Suspended until 02 May,0,0
+491,a,,100,100
+492,u,has joined Cadiz on loan for the rest of the season.,0,0
+494,a,,100,100
+495,u,Has departed the club as a free agent.,0,0
+496,u,has joined Sparta Prague permanently.,0,0
+497,a,,100,100
+498,u,has joined Bradford City on loan for the rest of the season.,0,0
+500,a,,100,100
+501,a,,,
+674,a,,,
+684,a,,,
+689,a,,,
+714,a,,100,100
+753,a,,,
+765,a,,,
+772,a,,,
+12,u,has joined Ajax permanently.,0,0
+400,a,,100,100
+426,a,,,
+502,a,,100,100
+503,u,Has joined Palmeiras permanently.,0,0
+504,u,Has joined Lyon permanently.,0,0
+505,a,,,
+506,d,Knock - 75% chance of playing,75,75
+507,a,,100,100
+508,a,,100,100
+509,u,has joined Real Oviedo on loan for the rest of the season.,0,0
+510,a,,100,100
+511,a,,,
+512,u,has joined Rio Ave on loan for the rest of the season.,0,0
+513,a,,,
+514,i,Knee injury - Unknown return date,0,0
+515,a,,100,100
+516,d,Muscle injury - 25% chance of playing,25,25
+517,a,,75,100
+518,u,has joined Besiktas on loan for the rest of the season.,0,0
+519,a,,100,100
+520,u,Has joined Wrexham permanently.,0,0
+521,a,,100,100
+522,a,,100,100
+523,a,,100,100
+524,u,Has joined Swansea City permanently.,0,0
+525,a,,75,100
+526,a,,100,100
+527,a,,100,100
+669,a,,100,100
+675,a,,100,100
+693,a,,,
+696,u,has joined Eintracht Frankfurt on loan for the rest of the season.,0,0
+715,i,Knee injury - Expected back 01 Jun,0,0
+716,i,Knee injury - Unknown return date,0,0
+729,u,has joined Vasco de Gama on loan for the rest of the season.,0,0
+734,a,,100,100
+805,a,,,
+814,a,,,
+528,u,has joined Millwall on loan for the rest of the season.,0,0
+529,i,Hand injury - Unknown return date,0,0
+530,u,has joined US Boulogne CO permanently.,0,0
+531,a,,100,100
+532,a,,,
+533,u,has joined Portsmouth on loan for the rest of the season.,0,0
+534,u,has joined Barrow FC permanently.,0,0
+535,a,,100,100
+536,u,has joined Sheffield United on loan for the rest of the season.,0,0
+537,u,has joined Wycombe Wanderers on loan for the rest of the season.,0,0
+538,u,has joined York City on loan for the rest of the season.,0,0
+539,a,,100,100
+540,u,has joined Le Havre AC on loan for the rest of the season.,0,0
+541,a,,100,100
+542,u,has joined Wolfsburg on loan for the rest of the season.,0,0
+543,u,has joined AS Monaco on loan for the rest of the season.,0,0
+544,a,,100,100
+545,u,has joined Birmingham City permanently.,0,0
+546,a,,100,100
+547,a,,100,100
+548,i,Hamstring injury - Expected back 01 Jun,0,0
+549,u,has joined Ipswich Town on loan for the rest of the season.,0,0
+550,a,,,
+551,a,,,
+552,a,,100,100
+553,a,,100,100
+554,a,,,
+555,u,has joined Middlesbrough on loan for the rest of the season.,0,0
+556,u,Has joined AS Saint-Etienne permanently.,0,0
+557,a,,,
+558,u,has joined MK Dons permanently.,0,0
+559,u,has joined Minnesota United permanently.,0,0
+560,a,,100,100
+561,a,,,
+562,a,,,
+563,u,has joined Moreirense on loan for the rest of the season.,0,0
+564,u,has joined Arka on loan for the rest of the season.,0,0
+668,a,,100,100
+670,a,,100,100
+678,u,has joined RC Lens on loan for the rest of the season.,0,0
+683,d,Knock - 75% chance of playing,100,75
+694,a,,100,100
+724,a,,,
+730,a,,100,100
+735,d,Knee injury - 50% chance of playing,0,50
+774,a,,,
+775,u,has joined Exeter City on loan for the rest of the season.,0,0
+800,d,Ankle injury - 50% chance of playing,0,50
+812,a,,,
+813,d,Unknown - 50% chance of playing,0,50
+821,a,,,
+822,a,,,
+565,d,Hernia - 50% chance of playing,0,50
+566,a,,,
+567,a,,,
+568,a,,100,100
+569,i,Knee injury - Expected back 01 Jun,0,0
+570,a,,100,100
+571,i,Ankle injury - Unknown return date,0,0
+572,a,,100,100
+573,a,,100,100
+574,a,,100,100
+575,a,,100,100
+576,u,Has joined Stoke City on loan for the rest of the season.,0,0
+577,u,has joined Borussia Mönchengladbach on loan for the rest of the season.,0,0
+578,u,has joined Hamburger SV on loan for the rest of the season.,0,0
+579,u,has joined Los Angeles FC permanently.,0,0
+581,a,,0,100
+582,i,Thigh injury - Unknown return date,0,0
+583,i,Knee injury - Unknown return date,0,0
+584,a,,100,100
+585,a,,100,100
+586,a,,100,100
+587,a,,100,100
+588,i,Knee injury - Unknown return date,0,0
+589,u,has joined Fiorentina on loan for the rest of the season.,0,0
+590,u,has joined Girona permanently.,0,0
+591,a,,100,100
+592,u,Has joined Rangers on loan for the rest of the season.,0,0
+593,a,,100,100
+594,u,has joined Coventry City on loan for the rest of the season.,0,0
+595,a,,,
+596,a,,100,100
+597,a,,100,100
+598,u,has joined Oxford United on loan for the rest of the season.,0,0
+599,u,has joined Hibernian on loan for the rest of the season.,0,0
+673,a,,100,100
+717,a,,100,100
+726,a,,100,100
+745,a,,,
+750,a,,,
+751,u,has joined Bristol Rovers on loan for the rest of the season.,0,0
+790,a,,,
+796,a,,100,100
+804,a,,,
+811,a,,,
+818,a,,,
+326,a,,100,100
+600,a,,100,100
+601,u,has joined Aris Limassol permanently.,0,0
+602,u,has joined MTK Budapest on loan for the rest of the season.,0,0
+603,a,,100,100
+604,u,has joined Marseille permanently.,0,0
+605,a,,,
+606,a,,100,100
+607,u,has joined Marseille permanently.,0,0
+608,a,,100,100
+609,a,,100,100
+610,a,,100,100
+611,u,has joined Leyton Orient on loan for the rest of the season.,0,0
+612,u,has joined Flamengo permanently.,0,0
+613,a,,100,100
+615,a,,100,100
+616,u,Has joined Fenerbahçe on loan for the rest of the season.,0,0
+617,u,has joined Genoa on loan for the rest of the season.,0,0
+618,u,has joined Valencia on loan for the rest of the season.,0,0
+619,u,has joined Sporting CP permanently.,0,0
+620,u,has joined Bristol City on loan for the rest of the season.,0,0
+621,u,has joined Sparta Prague permanently.,0,0
+622,u,has joined Stevenage on loan for the rest of the season.,0,0
+623,a,,100,100
+624,a,,,
+625,u,has joined AC Milan on loan for the rest of the season.,0,0
+626,u,has joined VfL Bochum 1848 on loan for the rest of the season.,0,0
+659,a,,,
+671,a,,100,100
+679,a,,,
+708,a,,100,100
+718,a,,,
+738,a,,100,100
+747,a,,,
+752,a,,,
+758,a,,,
+785,a,,100,100
+791,a,,,
+802,a,,,
+815,a,,,
+825,a,,,
+627,i,Shoulder injury - Expected back 24 May,0,0
+628,d,Shoulder injury - 75% chance of playing,100,75
+629,a,,100,100
+631,u,has joined Besiktas permanently.,0,0
+632,d,Muscle injury - 75% chance of playing,75,75
+633,a,,100,100
+634,s,Suspended until 02 May,0,0
+635,a,,100,100
+636,a,,100,100
+637,a,,100,100
+638,u,has joined Sheffield United on loan for the rest of the season.,0,0
+639,u,On loan to FC Alverca,0,0
+640,a,,100,100
+641,u,has joined Crewe Alexandra on loan for the rest of the season.,0,0
+642,a,,100,100
+643,a,,100,100
+644,a,,100,100
+645,u,has joined Celta Vigo on loan for the rest of the season.,0,0
+646,a,,100,100
+647,u,Has joined Real Sociedad permanently.,0,0
+648,u,has joined Paris FC on loan for the rest of the season.,0,0
+649,u,Has joined FC Metz on loan for the rest of the season.,0,0
+650,u,has joined Barnsley on loan for the rest of the season.,0,0
+651,a,,,
+652,a,,,
+653,u,Signed by CD Tondela,0,0
+655,u,has joined Borussia Dortmund permanently.,0,0
+656,u,has joined LASK on loan for the rest of the season.,0,0
+657,a,,100,100
+658,a,,,
+663,u,has joined Palmeiras permanently.,0,0
+682,a,,,
+695,a,,,
+709,d,Neck - 75% chance of playing,100,75
+720,a,,,
+749,a,,,
+766,a,,,
+767,a,,,
+777,u,has joined Shrewsbury Town on loan for the rest of the season.,0,0
+778,a,,,
+809,a,,,
+816,d,Foot injury - 75% chance of playing,100,75
+817,a,,,
+828,a,,,
