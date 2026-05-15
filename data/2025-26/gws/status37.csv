@@ -9,7 +9,7 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 8,i,Ankle injury - Unknown return date,0,0
 9,u,has joined Porto on loan for the rest of the season.,0,0
 10,a,,,
-11,d,Knee injury - 50% chance of playing,100,50
+11,i,Knee injury - Expected back 01 Jun,100,0
 13,a,,,
 14,u,has joined Morecambe on loan for the rest of the season.,0,0
 15,a,,,
@@ -61,7 +61,7 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 56,u,Season-long loan to Benfica,0,0
 57,u,Has joined Preston North End on loan for the rest of the season.,0,0
 58,i,Knee injury - Expected back 01 Jun,0,0
-59,d,Knock - 25% chance of playing,25,25
+59,i,Calf injury - Unknown return date,25,0
 60,u,has joined Falkirk on loan for the rest of the season.,0,0
 61,u,Has joined Real Oviedo permanently.,0,0
 62,u,has joined West Brom on loan for the rest of the season.,0,0
@@ -81,7 +81,7 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 757,a,,,
 768,a,,,
 781,a,,,
-792,a,,100,100
+792,i,Muscle injury - Unknown return date,100,0
 808,a,,,
 183,a,,,
 184,u,has joined FC Fredericia permanently.,0,0
@@ -107,7 +107,7 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 204,u,has joined Kocaelispor  permanently.,0,0
 205,i,Knee injury - Expected back 30 Sep,0,0
 206,a,,100,100
-207,a,,100,100
+207,d,Fatigue - 75% chance of playing,100,75
 208,u,has joined Paris FC on loan for the rest of the season.,0,0
 209,a,,100,100
 210,a,,,
@@ -236,7 +236,7 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 154,u,has joined Blackburn Rovers on loan for the rest of the season.,0,0
 155,u,has joined Harrogate Town on loan until January.,0,0
 156,a,,,
-157,d,Hamstring injury - 75% chance of playing,100,75
+157,i,Hamstring injury - Expected back 01 Jun,100,0
 158,a,,100,100
 159,a,,100,100
 160,a,,100,100
@@ -247,11 +247,11 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 165,u,has joined Lens permanently.,0,0
 166,a,,100,100
 167,a,,100,100
-169,d,Knee injury - 50% chance of playing,50,50
+169,a,,50,100
 170,a,,100,100
 171,u,has joined Middlesbrough on loan for the rest of the season.,0,0
 172,u,has joined Millwall on loan for the rest of the season.,0,0
-173,d,Ankle injury - 50% chance of playing,50,50
+173,d,Ankle injury - 75% chance of playing,50,75
 174,u,Has joined Swansea City on loan for the rest of the season.,0,0
 175,u,has joined Stevenage permanently.,0,0
 176,u,has joined Dinamo Bucharest permanently.,0,0
@@ -264,7 +264,7 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 761,a,,,
 783,a,,,
 795,a,,,
-220,d,Head injury - 50% chance of playing,0,50
+220,d,Head injury - 75% chance of playing,0,75
 221,a,,100,100
 222,u,Has joined RC Strasbourg on loan for the rest of the season.,0,0
 223,a,,,
@@ -280,7 +280,7 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 233,a,,100,100
 234,u,has joined Strasbourg on loan for the rest of the season.,0,0
 235,a,,100,100
-236,d,Knock - 50% chance of playing,25,50
+236,d,Knock - 75% chance of playing,25,75
 237,a,,100,100
 238,i,Hamstring injury - Expected back 01 Jun,0,0
 239,d,Hamstring injury - 25% chance of playing,25,25
@@ -295,7 +295,7 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 250,a,,100,100
 251,u,has joined Bayern Munich on loan for the rest of the season.,0,0
 252,a,,100,100
-453,d,Knock - 50% chance of playing,25,50
+453,d,Knock - 75% chance of playing,25,75
 672,a,,100,100
 743,a,,,
 789,a,,,
@@ -309,7 +309,7 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 256,a,,100,100
 257,a,,100,100
 258,a,,,
-259,d,Knock - 50% chance of playing,50,50
+259,d,Knock - 75% chance of playing,50,75
 261,a,,100,100
 262,a,,100,100
 263,a,,100,100
@@ -337,7 +337,7 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 286,a,,,
 580,a,,,
 654,a,,100,100
-677,d,Knee injury - 50% chance of playing,50,50
+677,d,Knee injury - 75% chance of playing,50,75
 690,a,,100,100
 712,a,,100,100
 723,a,,100,100
@@ -453,7 +453,7 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 787,a,,,
 837,a,,,
 838,a,,,
-366,d,Muscle injury - 50% chance of playing,25,50
+366,d,Lack of match fitness - 75% chance of playing,25,75
 367,a,,50,100
 368,a,,,
 369,a,,,
@@ -468,8 +468,8 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 378,a,,100,100
 379,a,,,
 380,a,,,
-381,d,Muscle injury - 50% chance of playing,25,50
-382,a,,100,100
+381,a,,25,100
+382,d,Illness - 75% chance of playing,100,75
 383,u,Has joined Bayern Munch permanently.,0,0
 384,a,,100,100
 385,a,,100,100
@@ -498,7 +498,7 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 399,u,has joined Fenerbache permanently.,0,0
 401,a,,100,100
 402,a,,100,100
-403,d,Lack of match fitness - 75% chance of playing,75,75
+403,a,,75,100
 404,u,has joined Inter Milan on loan for the rest of the season.,0,0
 405,a,,,
 406,a,,100,100
@@ -580,7 +580,7 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 471,a,,,
 472,u,Has joined Sevilla on loan for the rest of the season.,0,0
 473,a,,100,100
-474,i,Ankle injury - Expected back 24 May,0,0
+474,i,Ankle injury - Expected back 01 Jun,0,0
 475,a,,100,100
 476,a,,100,100
 477,i,Thigh injury - Expected back 01 Jun,0,0
@@ -596,7 +596,7 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 487,a,,,
 488,a,,100,100
 489,a,,100,100
-490,a,,100,100
+490,d,Thigh injury - 75% chance of playing,100,75
 491,a,,100,100
 492,u,has joined Cadiz on loan for the rest of the season.,0,0
 494,a,,100,100
@@ -620,29 +620,29 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 503,u,Has joined Palmeiras permanently.,0,0
 504,u,Has joined Lyon permanently.,0,0
 505,a,,,
-506,d,Muscle injury - 50% chance of playing,50,50
-507,d,Knock - 50% chance of playing,50,50
+506,i,Muscle injury - Unknown return date,50,0
+507,i,Knock - Unknown return date,50,0
 508,a,,100,100
 509,u,has joined Real Oviedo on loan for the rest of the season.,0,0
 510,a,,100,100
 511,a,,,
 512,u,has joined Rio Ave on loan for the rest of the season.,0,0
-513,d,Head injury - 50% chance of playing,50,50
+513,d,Head injury - 75% chance of playing,50,75
 514,i,Knee injury - Unknown return date,0,0
-515,d,Facial Injury - 50% chance of playing,50,50
+515,d,Facial Injury - 75% chance of playing,50,75
 516,i,Muscle injury - Expected back 01 Jun,0,0
 517,a,,100,100
 518,u,has joined Besiktas on loan for the rest of the season.,0,0
 519,a,,100,100
 520,u,Has joined Wrexham permanently.,0,0
-521,d,Knock - 50% chance of playing,50,50
+521,d,Knock - 75% chance of playing,50,75
 522,a,,100,100
 523,a,,100,100
 524,u,Has joined Swansea City permanently.,0,0
 525,a,,100,100
 526,a,,100,100
 527,a,,100,100
-669,d,Knock - 50% chance of playing,50,50
+669,d,Knock - 75% chance of playing,50,75
 675,a,,100,100
 693,a,,,
 696,u,has joined Eintracht Frankfurt on loan for the rest of the season.,0,0
@@ -706,7 +706,7 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 813,a,,100,100
 821,a,,,
 822,a,,,
-565,i,Hernia - Unknown return date,0,0
+565,d,Hernia - 25% chance of playing,0,25
 566,a,,,
 567,a,,,
 568,a,,100,100
@@ -736,7 +736,7 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 593,a,,100,100
 594,u,has joined Coventry City on loan for the rest of the season.,0,0
 595,a,,,
-596,d,Muscle injury - 25% chance of playing,25,25
+596,d,Muscle injury - 50% chance of playing,25,50
 597,a,,100,100
 598,u,has joined Oxford United on loan for the rest of the season.,0,0
 599,u,has joined Hibernian on loan for the rest of the season.,0,0
