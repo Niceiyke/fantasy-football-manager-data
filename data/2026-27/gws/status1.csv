@@ -76,7 +76,7 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 75,s,Suspended until 29 Aug,,0
 76,a,,,
 77,a,,,
-78,a,,,
+78,i,Foot injury - Unknown return date,,0
 79,a,,,
 80,a,,,
 81,a,,,
@@ -99,7 +99,7 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 98,a,,,
 99,d,Knee injury - 75% chance of playing,,75
 100,i,Knee injury - Unknown return date,,0
-101,d,Wrist injury - 75% chance of playing,,75
+101,u,has departed the club as a free agent.,,0
 102,a,,,
 103,a,,,
 105,a,,,
@@ -197,7 +197,7 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 194,a,,,
 195,a,,,
 196,a,,,
-197,a,,,
+197,u,Has joined KVC Westerlo on loan for the rest of the season,,0
 198,a,,,
 199,a,,,
 200,a,,,
@@ -273,7 +273,7 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 272,a,,,
 273,a,,,
 274,a,,,
-275,a,,,
+275,u,Has joined Grimsby Town on loan for the rest of the season,,0
 276,a,,,
 277,a,,,
 278,a,,,
@@ -311,9 +311,9 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 307,a,,,
 308,a,,,
 309,a,,,
-310,a,,,
+310,i,Muscular injury - Unknown return date,,0
 311,a,,,
-312,a,,,
+312,i,Knee injury - Unknown return date,,0
 313,a,,,
 314,a,,,
 315,a,,,
@@ -328,6 +328,7 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 324,a,,,
 554,a,,,
 562,a,,,
+564,a,,,
 260,a,,,
 326,a,,,
 327,a,,,
@@ -344,19 +345,19 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 339,a,,,
 340,a,,,
 341,a,,,
-342,a,,,
+342,u,Has joined New England Revolution permanently,,0
 343,a,,,
 344,a,,,
 345,a,,,
 346,a,,,
 347,a,,,
 348,a,,,
-349,a,,,
+349,i,Knee injury - Unknown return date,,0
 350,a,,,
 351,a,,,
 352,a,,,
 353,a,,,
-354,a,,,
+354,i,Knee injury - Unknown return date,,0
 355,a,,,
 356,a,,,
 357,a,,,
@@ -386,7 +387,7 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 381,a,,,
 382,i,Unspecified injury - Unknown return date,,0
 383,a,,,
-238,a,,,
+238,d,Foot injury - 75% chance of playing,,75
 384,a,,,
 385,a,,,
 386,a,,,
