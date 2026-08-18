@@ -45,16 +45,16 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 46,a,,,
 47,a,,,100
 48,i,Knee injury - Unknown return date,,0
-49,a,,,
+49,u,Has joined Bolton Wanderers on loan for the rest of the season,,0
 50,a,,,
 51,a,,,
 52,a,,,
-53,a,,,
-54,a,,,
+53,i,Knee injury - Unknown return date,,0
+54,i,Calf injury - Unknown return date,,0
 55,a,,,
-56,a,,,100
+56,d,Knock - 75% chance of playing,,75
 160,a,,,
-582,a,,,
+582,i,Unspecified injury - Unknown return date,,0
 57,a,,,
 58,a,,,
 59,a,,,
@@ -64,28 +64,28 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 63,i,Unspecified injury - Unknown return date,,0
 64,a,,,
 65,i,Thigh injury - Unknown return date,,0
-66,a,,,
+66,d,Hamstring injury - 75% chance of playing,,75
 67,a,,,
 68,a,,,
 69,a,,,
 70,a,,,
 71,a,,,
 72,a,,,
-73,a,,,
-74,a,,,
+73,d,Unspecified injury - 75% chance of playing,,75
+74,d,Unspecified injury - 75% chance of playing,,75
 75,s,Suspended until 29 Aug,,0
 76,a,,,
-77,a,,,
+77,i,Unspecified injury - Unknown return date,,0
 78,i,Foot injury - Unknown return date,,0
 79,a,,,
-80,a,,,
-81,a,,,
+80,u,Has joined Getafe permanently,,0
+81,d,Unspecified injury - 75% chance of playing,,75
 566,a,,,
 573,a,,,
 82,a,,,
 83,a,,,
 84,a,,,
-85,a,,,
+85,i,Unspecified injury - Unknown return date,,0
 86,a,,,
 87,a,,,
 88,a,,,
@@ -119,7 +119,7 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 119,a,,,
 120,a,,,
 121,i,Hamstring injury - Unknown return date,,0
-122,a,,,
+122,i,Leg injury - Expected back 28 Nov,,0
 123,a,,,
 124,a,,,
 125,a,,,
@@ -129,14 +129,14 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 129,a,,,
 130,a,,,
 131,i,Ankle injury - Expected back 23 Aug,,0
-132,a,,,
+132,u,Has joined Leicester City on loan for the rest of the season,,0
 133,u,Has joined Leicester City on loan for the rest of the season,,0
 134,a,,,
 135,a,,,
 137,d,Knee injury - 75% chance of playing,,75
 138,a,,,
 139,i,Ankle injury - Expected back 10 Oct,,0
-328,a,,,
+328,d,Knock - 75% chance of playing,,75
 504,a,,,
 40,a,,,
 101,d,Wrist injury - 75% chance of playing,,75
@@ -193,17 +193,17 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 183,d,Shoulder injury - 75% chance of playing,,75
 184,a,,,
 185,a,,,
-186,a,,,
+186,d,Hamstring injury - 75% chance of playing,,75
 187,a,,,
 188,a,,,
 189,a,,,
 190,a,,,
 191,a,,,
 192,a,,,
-193,a,,,
+193,i,Thigh injury - Unknown return date,,0
 194,a,,,
 195,a,,,
-196,a,,,
+196,u,Has joined Shabab Al-Ahli Dubai permanently,,0
 197,u,Has joined KVC Westerlo on loan for the rest of the season,,0
 575,a,,,
 584,a,,,
@@ -237,7 +237,8 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 241,a,,,
 555,a,,,
 577,a,,,
-21,a,,,
+588,a,,,
+21,d,Lack of match fitness - 75% chance of playing,,75
 209,a,,,
 226,a,,,
 227,a,,,
@@ -252,7 +253,7 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 236,a,,,
 237,a,,,
 239,i,Groin injury - Expected back 22 Aug,,0
-240,a,,,
+240,i,Groin injury - Unknown return date,,0
 242,a,,,
 243,a,,,
 244,a,,,
@@ -275,7 +276,7 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 263,a,,,
 264,a,,,
 265,a,,,
-266,a,,,
+266,i,Knee injury - Expected back 10 Oct,,0
 268,a,,,
 269,a,,,
 270,a,,,
@@ -287,7 +288,7 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 273,a,,,
 274,i,Arm injury - Unknown return date,,0
 275,u,Has joined Grimsby Town on loan for the rest of the season,,0
-276,a,,,
+276,u,Has joined Colchester United on loan for the rest of the season,,0
 277,a,,,
 278,i,Groin injury - Unknown return date,,0
 279,a,,,
@@ -309,13 +310,17 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 295,a,,,
 296,a,,,
 297,i,Thigh injury - Unknown return date,,0
-298,a,,,
+298,u,Has joined Konyaspor permanently,,0
 299,u,Has joined Sheffield Wednesday on loan for the rest of the season,,0
+340,i,Ankle injury - Expected back 5 Sep,,0
 556,a,,,
-563,a,,,
+563,d,Calf injury - 50% chance of playing,,50
 572,a,,,
 574,a,,,
 576,a,,,
+585,a,,,
+586,a,,,
+589,a,,,
 259,a,,,
 267,a,,,
 300,a,,,
@@ -337,7 +342,7 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 316,a,,,
 317,a,,,
 318,a,,,
-319,a,,,
+319,u,Has joined Derby County on loan for the rest of the season,,0
 320,a,,,
 321,a,,,
 322,a,,,
@@ -361,11 +366,10 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 337,a,,,
 338,a,,,
 339,a,,,
-340,a,,,
-341,a,,,
+341,d,Hamstring injury - 25% chance of playing,,25
 342,u,Has joined New England Revolution permanently,,0
 343,a,,,
-344,a,,,
+344,i,Knee injury - Unknown return date,,0
 345,a,,,
 346,a,,,
 347,a,,,
@@ -395,7 +399,7 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 370,a,,,
 371,a,,,
 372,a,,,
-373,a,,,
+373,d,Hip injury - 75% chance of playing,,75
 374,a,,,100
 375,a,,,
 376,i,Hamstring injury - Expected back 23 Aug,,0
@@ -407,12 +411,12 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 382,i,Unspecified injury - Unknown return date,,0
 383,a,,,
 579,a,,,
-238,d,Foot injury - 75% chance of playing,,75
+238,a,,,100
 384,a,,,
 386,a,,,
 387,a,,,
 388,a,,,
-389,a,,,
+389,d,Knock - 75% chance of playing,,75
 390,a,,,
 391,a,,,
 392,a,,,
@@ -436,17 +440,18 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 410,a,,,
 411,a,,,
 481,a,,,
+587,a,,,
 43,a,,,100
 162,a,,,
 325,d,Unspecified injury - 75% chance of playing,,75
 412,a,,,
 413,u,Has joined Celta Vigo on loan for the rest of the season,,0
-414,a,,,
+414,i,Hamstring injury - Unknown return date,,0
 415,a,,,
 416,i,Back injury - Unknown return date,,0
 417,a,,,
 418,a,,,
-419,d,Thigh injury - 75% chance of playing,,75
+419,a,,,100
 420,a,,,
 421,a,,,
 422,a,,,
@@ -457,7 +462,7 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 427,a,,,
 428,a,,,
 429,a,,,
-430,a,,,
+430,d,Foot injury - 50% chance of playing,,50
 431,a,,,
 432,a,,,
 433,i,Knee injury - Unknown return date,,0
@@ -483,8 +488,8 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 454,a,,,
 456,a,,,
 457,a,,,
-458,a,,,100
-459,i,Leg injury - Expected back 30 Aug,,0
+458,i,Unspecified injury - Unknown return date,,0
+459,a,,,100
 460,a,,,
 461,a,,,
 462,a,,,
@@ -515,13 +520,14 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 486,a,,,
 487,a,,,
 488,a,,,
-489,a,,,
+489,d,Unspecified injury - 75% chance of playing,,75
 490,a,,,
 491,a,,,
 492,a,,,
 493,a,,,
 558,a,,,
 581,a,,,
+590,a,,,
 112,a,,,
 455,a,,,
 494,a,,,
@@ -530,7 +536,7 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 497,a,,,
 498,a,,,
 499,a,,,
-500,a,,,
+500,u,Has joined Atletico Madrid permanently,,0
 501,a,,,
 502,a,,,
 503,a,,,
@@ -570,7 +576,7 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 538,u,Has joined KV Mechelen on loan for the rest of the season,,0
 539,a,,,
 540,u,Has joined Konyaspor permanently,,0
-541,a,,,
+541,d,Knock - 75% chance of playing,,75
 542,a,,,
 543,a,,,
 544,a,,,
