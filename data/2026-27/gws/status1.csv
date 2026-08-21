@@ -25,7 +25,7 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 25,a,,,
 26,a,,,
 27,a,,,
-452,a,,,
+452,d,Thigh injury - 75% chance of playing,,75
 557,a,,,
 28,a,,,
 29,a,,,
@@ -38,7 +38,7 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 36,a,,,
 37,a,,,
 38,a,,,
-39,a,,,
+39,u,Has joined Rangers on loan for the rest of the season,,0
 41,a,,,
 44,a,,,
 45,a,,,
@@ -55,6 +55,8 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 56,d,Knock - 75% chance of playing,,75
 160,a,,,
 582,i,Unspecified injury - Unknown return date,,0
+596,a,,,
+597,a,,,
 57,a,,,
 58,a,,,
 59,a,,,
@@ -99,8 +101,8 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 96,a,,,
 97,a,,,
 98,a,,,
-99,d,Knee injury - 75% chance of playing,,75
-100,a,,,100
+99,i,Knee injury - Unknown return date,,0
+100,d,Lack of match fitness - 75% chance of playing,,75
 102,a,,,
 103,a,,,
 105,a,,,
@@ -136,11 +138,12 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 137,d,Knee injury - 75% chance of playing,,75
 138,a,,,
 139,i,Ankle injury - Expected back 10 Oct,,0
-328,d,Knock - 75% chance of playing,,75
+328,a,,,100
 504,a,,,
+594,a,,,
 40,a,,,
 101,d,Wrist injury - 75% chance of playing,,75
-136,a,,,
+136,d,Unspecified injury - 75% chance of playing,,75
 140,a,,,
 141,u,Has joined RC Strasbourg on loan for the rest of the season,,0
 142,a,,,
@@ -169,7 +172,7 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 167,a,,,
 168,a,,,
 169,a,,,
-170,d,Hamstring injury - 75% chance of playing,,75
+170,a,,,100
 200,a,,,
 560,a,,,
 561,a,,,
@@ -190,10 +193,10 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 180,a,,,
 181,a,,,
 182,a,,,
-183,d,Shoulder injury - 75% chance of playing,,75
+183,a,,,100
 184,a,,,
 185,a,,,
-186,d,Hamstring injury - 75% chance of playing,,75
+186,a,,,100
 187,a,,,
 188,a,,,
 189,a,,,
@@ -205,10 +208,12 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 195,a,,,
 196,u,Has joined Shabab Al-Ahli Dubai permanently,,0
 197,u,Has joined KVC Westerlo on loan for the rest of the season,,0
+492,a,,,
 575,a,,,
 584,a,,,
+599,a,,,
 42,a,,,
-198,a,,,
+198,d,Ankle injury - 75% chance of playing,,75
 199,a,,,
 201,a,,,
 202,a,,,
@@ -238,7 +243,8 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 555,a,,,
 577,a,,,
 588,a,,,
-21,d,Lack of match fitness - 75% chance of playing,,75
+595,a,,,
+21,d,Unspecified injury - 25% chance of playing,,25
 209,a,,,
 226,a,,,
 227,a,,,
@@ -252,7 +258,7 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 235,a,,,
 236,a,,,
 237,a,,,
-239,i,Groin injury - Expected back 22 Aug,,0
+239,i,Groin injury - Unknown return date,,0
 240,i,Groin injury - Unknown return date,,0
 242,a,,,
 243,a,,,
@@ -352,34 +358,37 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 562,a,,,
 564,a,,,
 571,a,,,
+591,a,,,
+592,a,,,
 260,a,,,
 326,a,,,
 327,a,,,
 329,a,,,
 330,a,,,
-331,i,Hamstring injury - Expected back 30 Aug,,0
+331,i,Hamstring injury - Unknown return date,,0
 332,a,,,
-333,a,,,
+333,u,Has joined Hamburg SV on loan for the rest of the season,,0
 334,a,,,
 335,a,,,
 336,a,,,
 337,a,,,
 338,a,,,
 339,a,,,
-341,d,Hamstring injury - 25% chance of playing,,25
+341,i,Hamstring injury - Unknown return date,,0
 342,u,Has joined New England Revolution permanently,,0
 343,a,,,
 344,i,Knee injury - Unknown return date,,0
 345,a,,,
 346,a,,,
 347,a,,,
-348,a,,,
+348,u,Has joined West Ham United on loan for the rest of the season,,0
 349,i,Knee injury - Unknown return date,,0
 385,a,,,
+598,a,,,
 350,a,,,
 351,a,,,
 352,a,,,
-353,a,,,
+353,u,Has joined TSV Hartberg on loan for the rest of the season,,0
 354,i,Knee injury - Unknown return date,,0
 355,a,,,
 356,a,,,
@@ -421,21 +430,21 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 391,a,,,
 392,a,,,
 393,a,,,
-394,a,,,
+394,u,Has joined Burnley on loan for the rest of the season,,0
 395,a,,,
 396,a,,,
 397,a,,,
 398,a,,,
 399,a,,,
-400,a,,,
+400,d,Calf injury - 75% chance of playing,,75
 401,a,,,
-402,i,Back injury - Unknown return date,,0
+402,u,Has joined Barcelona permanently,,0
 403,a,,,
-404,a,,,
+404,u,Has joined Al Qadsiah permanently,,0
 405,a,,,
 406,a,,,
 407,a,,,
-408,a,,,
+408,u,Has joined Sheffield United on loan for the rest of the season,,0
 409,a,,,
 410,a,,,
 411,a,,,
@@ -457,7 +466,7 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 422,a,,,
 423,a,,,
 424,a,,,
-425,a,,,
+425,u,Has joined Lausanne-Sport permanently,,0
 426,a,,,
 427,a,,,
 428,a,,,
@@ -482,7 +491,7 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 447,a,,,
 448,a,,,
 449,a,,,
-450,d,Calf injury - 75% chance of playing,,75
+450,i,Calf injury - Unknown return date,,0
 451,u,Has joined FC Kaiserslautern on loan for the rest of the season,,0
 453,a,,,
 454,a,,,
@@ -499,6 +508,7 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 466,a,,,
 559,a,,,
 567,a,,,
+593,a,,,
 467,a,,,
 468,a,,,
 469,a,,,
@@ -520,17 +530,16 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 486,a,,,
 487,a,,,
 488,a,,,
-489,d,Unspecified injury - 75% chance of playing,,75
+489,i,Unspecified injury - Unknown return date,,0
 490,a,,,
 491,a,,,
-492,a,,,
 493,a,,,
 558,a,,,
 581,a,,,
 590,a,,,
 112,a,,,
 455,a,,,
-494,a,,,
+494,u,Has joined Juventus on loan for the rest of the season,,0
 495,a,,,
 496,a,,,
 497,a,,,
@@ -540,9 +549,9 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 501,a,,,
 502,a,,,
 503,a,,,
-505,a,,,
+505,u,Has joined Internazionale permanently,,0
 506,a,,,
-507,a,,,
+507,u,Has joined Middlesbrough permanently,,0
 508,a,,,
 509,a,,,
 510,a,,,
@@ -568,20 +577,20 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 530,u,Has joined Wrexham permanently,,0
 531,a,,,
 532,a,,,
-533,d,Knock - 75% chance of playing,,75
+533,a,,,100
 534,a,,,
-535,d,Knock - 75% chance of playing,,75
+535,a,,,100
 536,a,,,
 537,a,,,
 538,u,Has joined KV Mechelen on loan for the rest of the season,,0
 539,a,,,
 540,u,Has joined Konyaspor permanently,,0
-541,d,Knock - 75% chance of playing,,75
+541,a,,,100
 542,a,,,
 543,a,,,
 544,a,,,
 545,a,,,
-546,a,,,
+546,i,Ankle injury - Unknown return date,,0
 547,a,,,
 548,a,,,
 549,a,,,
