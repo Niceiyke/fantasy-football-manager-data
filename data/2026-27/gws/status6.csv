@@ -23,7 +23,7 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 23,u,Has joined Hamburger SV permanently,0,0
 24,u,has departed the club as a free agent.,0,0
 25,a,,,
-26,a,,,
+26,d,Hamstring injury - 75% chance of playing,,75
 27,u,Has joined FC Barcelona permanently,0,0
 31,a,,,
 452,a,,100,100
@@ -479,7 +479,7 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 394,u,Has joined Burnley on loan for the rest of the season,0,0
 395,a,,,
 396,a,,,
-397,a,,,
+397,d,Ankle injury - 75% chance of playing,,75
 398,s,Suspended until 17 Oct,0,0
 399,a,,,
 400,a,,75,100
@@ -660,7 +660,7 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 549,a,,,
 550,a,,,
 551,a,,,
-552,a,,,
+552,d,Hamstring injury - 75% chance of playing,,75
 553,a,,,
 612,a,,100,100
 613,a,,,
