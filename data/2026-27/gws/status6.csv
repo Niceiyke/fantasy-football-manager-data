@@ -178,7 +178,7 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 154,d,Muscular injury - 75% chance of playing,100,75
 156,a,,,
 157,a,,,
-158,a,,,
+158,d,Ankle injury - 75% chance of playing,,75
 159,d,Calf injury - 50% chance of playing,50,50
 161,a,,,
 163,u,Has joined RC Strasbourg on loan for the rest of the season,0,0
@@ -446,7 +446,7 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 364,a,,,
 365,u,Has joined St Mirren on loan for the rest of the season,0,0
 366,a,,,
-367,a,,100,100
+367,d,Ankle injury - 75% chance of playing,100,75
 368,a,,,
 369,a,,,
 370,i,Back injury - Unknown return date,0,0
@@ -458,7 +458,7 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 376,u,Has joined Celta Vigo permanently,0,0
 377,a,,,
 378,a,,,
-379,a,,,
+379,d,Thigh injury - 75% chance of playing,,75
 380,i,Achilles injury - Unknown return date,0,0
 381,a,,,
 382,a,,100,100
@@ -505,7 +505,7 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 412,a,,,
 413,u,Has joined Celta Vigo on loan for the rest of the season,0,0
 414,i,Hamstring injury - Unknown return date,0,0
-415,a,,,
+415,d,Hamstring injury - 75% chance of playing,,75
 416,i,Back injury - Unknown return date,0,0
 417,a,,,
 418,a,,,
@@ -640,7 +640,7 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 529,a,,,
 530,u,Has joined Wrexham permanently,0,0
 531,a,,,
-532,a,,,
+532,d,Hamstring injury - 75% chance of playing,,75
 533,a,,100,100
 534,a,,,
 535,a,,100,100
