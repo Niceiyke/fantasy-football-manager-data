@@ -27,7 +27,7 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 27,u,Has joined FC Barcelona permanently,0,0
 31,a,,,
 452,a,,100,100
-557,a,,,
+557,d,Hamstring injury - 75% chance of playing,,75
 29,i,Back injury - Expected back 10 Oct,0,0
 30,u,Has joined Paris Saint-Germain permanently,0,0
 32,a,,100,100
@@ -275,7 +275,7 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 230,a,,,
 231,a,,,
 232,a,,,
-233,a,,,
+233,d,Leg injury - 75% chance of playing,,75
 234,u,Has joined Torino permanently,0,0
 235,u,Has joined Malaga on loan for the rest of the season,0,0
 236,a,,,
@@ -469,7 +469,7 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 237,a,,,
 384,a,,,
 386,a,,,
-387,a,,100,100
+387,d,Unspecified injury - 75% chance of playing,100,75
 388,a,,,
 389,a,,100,100
 390,a,,,
@@ -548,7 +548,7 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 456,i,Thigh injury - Unknown return date,0,0
 457,a,,,
 458,i,Unspecified injury - Unknown return date,0,0
-459,a,,100,100
+459,d,Unspecified injury - 75% chance of playing,100,75
 460,a,,,
 461,a,,,
 462,a,,,
@@ -596,7 +596,7 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 558,a,,,
 581,a,,,
 590,a,,,
-112,a,,,
+112,d,Foot injury - 75% chance of playing,,75
 147,a,,,
 401,a,,,
 403,a,,100,100
