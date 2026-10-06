@@ -18,14 +18,14 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 17,a,,,
 18,u,Has joined Al Hilal permanently,0,0
 19,a,,,
-20,a,,,
+20,d,Unspecified injury - 75% chance of playing,,75
 22,u,Has joined Borussia Dortmund on loan for the rest of the season,0,0
 23,u,Has joined Hamburger SV permanently,0,0
 24,u,has departed the club as a free agent.,0,0
 25,a,,,
 26,d,Hamstring injury - 75% chance of playing,,75
 27,u,Has joined FC Barcelona permanently,0,0
-31,a,,,
+31,d,Unspecified injury - 75% chance of playing,,75
 452,a,,100,100
 557,d,Hamstring injury - 75% chance of playing,,75
 29,i,Back injury - Expected back 10 Oct,0,0
@@ -76,7 +76,7 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 66,a,,100,100
 67,a,,,
 68,a,,,
-69,a,,,
+69,d,Thigh injury - 50% chance of playing,,50
 70,i,Unspecified injury - Unknown return date,,0
 71,a,,,
 72,a,,,
@@ -106,7 +106,7 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 93,a,,,
 94,a,,,
 95,a,,,
-96,a,,,
+96,d,Unspecified injury - 75% chance of playing,,75
 97,i,Unspecified injury - Expected back 10 Oct,0,0
 98,a,,,
 99,i,Knee injury - Unknown return date,0,0
@@ -260,7 +260,7 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 241,a,,,
 555,a,,,
 577,d,Calf injury - 75% chance of playing,,75
-588,a,,,
+588,d,Hamstring injury - 75% chance of playing,,75
 595,a,,,
 633,a,,,
 643,a,,,
@@ -441,7 +441,7 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 359,a,,100,100
 360,i,Knee injury - Unknown return date,0,0
 361,a,,,
-362,a,,100,100
+362,d,Hamstring injury - 75% chance of playing,100,75
 363,i,Knee injury - Unknown return date,0,0
 364,a,,,
 365,u,Has joined St Mirren on loan for the rest of the season,0,0
@@ -512,7 +512,7 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 419,a,,100,100
 420,a,,,
 421,a,,,
-422,a,,,
+422,d,Back injury - 75% chance of playing,,75
 423,a,,50,100
 424,a,,,
 425,u,Has joined Lausanne-Sport permanently,0,0
