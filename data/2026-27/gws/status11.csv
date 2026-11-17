@@ -17,7 +17,7 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 16,a,,100,100
 17,a,,,
 18,u,Has joined Al Hilal permanently,0,0
-19,a,,100,100
+19,d,Hamstring injury - 75% chance of playing,100,75
 20,s,Suspended until 29 Nov,0,0
 22,u,Has joined Borussia Dortmund on loan for the rest of the season,0,0
 23,u,Has joined Hamburger SV permanently,0,0
@@ -30,7 +30,7 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 557,a,,100,100
 29,a,,100,100
 30,u,Has joined Paris Saint-Germain permanently,0,0
-32,a,,0,100
+32,d,Concussion - 75% chance of playing,0,75
 33,a,,,
 34,a,,100,100
 35,a,,,
@@ -96,13 +96,13 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 615,a,,,
 82,a,,,
 83,a,,,
-84,a,,100,100
+84,d,Knee injury - 75% chance of playing,100,75
 85,a,,100,100
 86,a,,,
 87,a,,,
 88,a,,,
 89,i,Hip injury - Unknown return date,0,0
-90,a,,,
+90,d,Hamstring injury - 75% chance of playing,,75
 92,a,,,
 93,a,,100,100
 94,a,,100,100
@@ -155,9 +155,9 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 594,a,,,
 600,a,,,
 605,a,,,
-614,a,,,
+614,d,Unspecified injury - 75% chance of playing,,75
 624,u,Has joined Middlesbrough on loan for the rest of the season,0,0
-639,a,,100,100
+639,d,Hip injury - 75% chance of playing,100,75
 652,i,Hamstring injury - Expected back 8 Nov,0,0
 658,a,,,
 28,d,Head injury - 75% chance of playing,75,75
@@ -357,7 +357,7 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 574,a,,,
 576,a,,,
 585,a,,,
-586,a,,100,100
+586,d,Knee injury - 75% chance of playing,100,75
 589,a,,75,100
 617,a,,100,100
 632,i,Back injury - Unknown return date,0,0
@@ -508,7 +508,7 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 412,a,,,
 413,u,Has joined Celta Vigo on loan for the rest of the season,0,0
 414,a,,100,100
-415,a,,75,100
+415,d,Hamstring injury - 75% chance of playing,75,75
 416,a,,100,100
 417,a,,,
 418,d,Back injury - 75% chance of playing,,75
@@ -573,7 +573,7 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 201,a,,,
 467,a,,,
 468,a,,,
-469,a,,100,100
+469,d,Ankle injury - 75% chance of playing,100,75
 470,u,Has joined West Ham on loan for the rest of the season,0,0
 471,a,,100,100
 472,a,,100,100
@@ -596,7 +596,7 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 490,a,,,
 491,a,,75,100
 493,a,,,
-558,a,,,
+558,d,Thigh injury - 75% chance of playing,,75
 581,a,,,
 590,a,,,
 112,a,,100,100
