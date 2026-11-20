@@ -10,14 +10,14 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 9,a,,100,100
 10,a,,100,100
 11,a,,100,100
-12,i,Thigh injury - Unknown return date,0,0
+12,i,Thigh injury - Expected back 20 Dec,0,0
 13,a,,100,100
 14,a,,,
 15,a,,,
 16,a,,100,100
 17,a,,,
 18,u,Has joined Al Hilal permanently,0,0
-19,d,Hamstring injury - 75% chance of playing,100,75
+19,i,Hamstring injury - Unknown return date,100,0
 20,s,Suspended until 29 Nov,0,0
 22,u,Has joined Borussia Dortmund on loan for the rest of the season,0,0
 23,u,Has joined Hamburger SV permanently,0,0
@@ -30,7 +30,7 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 557,a,,100,100
 29,a,,100,100
 30,u,Has joined Paris Saint-Germain permanently,0,0
-32,d,Concussion - 75% chance of playing,0,75
+32,i,Concussion - Expected back 28 Nov,0,0
 33,a,,,
 34,a,,100,100
 35,a,,,
@@ -48,7 +48,7 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 50,a,,,
 51,a,,100,100
 52,a,,100,100
-53,d,Calf injury - 75% chance of playing,100,75
+53,a,,100,100
 54,a,,100,100
 55,u,Has joined Al Hilal permanently,0,0
 56,a,,100,100
@@ -59,7 +59,7 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 597,a,,,
 606,a,,,
 607,u,Has joined Oxford United on loan until January,0,0
-611,d,Hamstring injury - 50% chance of playing,50,50
+611,a,,50,100
 618,a,,100,100
 630,a,,,
 631,a,,,
@@ -96,13 +96,13 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 615,a,,,
 82,a,,,
 83,a,,,
-84,d,Knee injury - 75% chance of playing,100,75
+84,i,Knee injury - Expected back 2 Dec,100,0
 85,a,,100,100
 86,a,,,
 87,a,,,
 88,a,,,
 89,i,Hip injury - Unknown return date,0,0
-90,d,Hamstring injury - 75% chance of playing,,75
+90,i,Hamstring injury - Expected back 2 Dec,,0
 92,a,,,
 93,a,,100,100
 94,a,,100,100
@@ -111,9 +111,9 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 97,a,,100,100
 98,a,,100,100
 99,i,Knee injury - Unknown return date,0,0
-100,i,Knock - Expected back 23 Nov,0,0
+100,d,Knock - 75% chance of playing,0,75
 102,a,,100,100
-103,d,Hamstring injury - 25% chance of playing,25,25
+103,i,Hamstring injury - Unknown return date,25,0
 105,a,,,
 106,s,Suspended until 5 Dec,,0
 107,i,Unspecified injury - Unknown return date,0,0
@@ -133,7 +133,7 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 118,u,Has joined Burnley permanently,0,0
 119,a,,,
 120,a,,,
-121,i,Hamstring injury - Expected back 22 Nov,0,0
+121,i,Hamstring injury - Expected back 2 Dec,0,0
 122,a,,100,100
 123,a,,100,100
 124,a,,,
@@ -146,21 +146,21 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 132,u,Has joined Leicester City on loan for the rest of the season,0,0
 133,u,Has joined Leicester City on loan for the rest of the season,0,0
 134,a,,,
-135,i,Unspecified injury - Expected back 22 Nov,0,0
+135,i,Unspecified injury - Unknown return date,0,0
 137,i,Knee injury - Unknown return date,0,0
 138,a,,,
 139,i,Ankle injury - Unknown return date,0,0
-328,i,Hamstring injury - Expected back 8 Nov,0,0
+328,a,,0,100
 504,a,,,
 594,a,,,
 600,a,,,
 605,a,,,
 614,d,Unspecified injury - 75% chance of playing,,75
 624,u,Has joined Middlesbrough on loan for the rest of the season,0,0
-639,d,Hip injury - 75% chance of playing,100,75
-652,i,Hamstring injury - Expected back 8 Nov,0,0
+639,a,,100,100
+652,a,,0,100
 658,a,,,
-28,d,Head injury - 75% chance of playing,75,75
+28,a,,75,100
 40,a,,,
 101,a,,75,100
 136,a,,100,100
@@ -171,10 +171,10 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 144,a,,100,100
 145,a,,100,100
 146,u,Has joined Napoli on loan for the rest of the season,0,0
-148,i,Unspecified injury - Unknown return date,0,0
+148,i,Back injury - Unknown return date,0,0
 149,a,,,
 150,u,Has joined Real Sociedad on loan for the rest of the season,0,0
-151,d,Unspecified injury - 75% chance of playing,,75
+151,a,,,100
 152,a,,100,100
 154,a,,100,100
 156,a,,,
@@ -197,11 +197,11 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 669,a,,,
 670,a,,,
 91,a,,,
-104,d,Groin injury - 50% chance of playing,50,50
+104,d,Groin injury - 75% chance of playing,50,75
 110,a,,,
 171,u,not included in squad.,0,0
 172,a,,,
-173,d,Calf injury - 50% chance of playing,50,50
+173,d,Calf injury - 75% chance of playing,50,75
 174,u,Has joined Sheffield United on loan for the rest of the season,0,0
 175,a,,100,100
 176,a,,,
@@ -214,20 +214,20 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 183,a,,100,100
 184,a,,,
 185,a,,,
-186,a,,100,100
+186,d,Knee injury - 75% chance of playing,100,75
 187,i,Ankle injury - Unknown return date,0,0
 188,a,,,
 189,a,,,
 190,a,,,
 191,u,Has joined Burton Albion on loan for the rest of the season,0,0
 192,u,Has joined Oxford United on loan for the rest of the season,0,0
-193,i,Thigh injury - Unknown return date,0,0
+193,i,Lack of match fitness - Unknown return date,0,0
 194,a,,,
 195,a,,,
 196,u,Has joined Shabab Al-Ahli Dubai permanently,0,0
 197,u,Has joined KVC Westerlo on loan for the rest of the season,0,0
 492,a,,100,100
-575,a,,,
+575,d,Unspecified injury - 75% chance of playing,,75
 584,a,,,
 599,a,,,
 623,a,,,
@@ -243,7 +243,7 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 205,u,Has joined FC Cologne on loan for the rest of the season,0,0
 206,i,Knee injury - Unknown return date,0,0
 207,a,,,
-208,i,Groin injury - Expected back 21 Nov,0,0
+208,i,Groin injury - Expected back 29 Nov,0,0
 210,a,,100,100
 211,a,,,
 212,a,,,
@@ -262,7 +262,7 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 225,u,has returned to Getafe CF,0,0
 241,a,,,
 555,a,,,
-577,i,Calf injury - Expected back 21 Nov,0,0
+577,i,Calf injury - Expected back 29 Nov,0,0
 588,a,,100,100
 595,a,,,
 633,a,,,
@@ -295,7 +295,7 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 649,a,,,
 654,a,,,
 250,a,,,
-251,a,,,
+251,i,Achilles injury - Unknown return date,,0
 252,u,Has joined York City on loan for the rest of the season,0,0
 253,a,,100,100
 254,a,,100,100
@@ -304,11 +304,11 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 257,a,,,
 258,a,,,
 261,a,,,
-262,a,,100,100
+262,i,Hip injury - Expected back 29 Nov,100,0
 263,a,,,
 264,a,,,
 265,a,,,
-266,i,Knee injury - Expected back 21 Nov,0,0
+266,a,,0,100
 268,a,,,100
 269,a,,100,100
 270,a,,,
@@ -336,7 +336,7 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 283,u,Has joined Newport County on loan until January,0,0
 284,a,,,
 285,a,,100,100
-286,d,Hamstring injury - 75% chance of playing,,75
+286,a,,,100
 287,u,Has joined Birmingham on loan for the rest of the season,0,0
 288,a,,,
 289,a,,0,100
@@ -357,7 +357,7 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 574,a,,,
 576,a,,,
 585,a,,,
-586,d,Knee injury - 75% chance of playing,100,75
+586,a,,100,100
 589,a,,75,100
 617,a,,100,100
 632,i,Back injury - Unknown return date,0,0
@@ -406,11 +406,11 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 327,a,,,
 329,a,,100,100
 330,a,,,
-331,d,Hamstring injury - 75% chance of playing,100,75
+331,a,,100,100
 332,a,,,
 333,u,Has joined Hamburg SV on loan for the rest of the season,0,0
 334,a,,,
-335,d,Foot injury - 50% chance of playing,50,50
+335,a,,50,100
 336,a,,50,100
 337,a,,,
 338,a,,,
@@ -438,8 +438,8 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 353,u,Has joined TSV Hartberg on loan for the rest of the season,0,0
 354,i,Knee injury - Unknown return date,0,0
 355,a,,,
-356,d,Unspecified injury - 75% chance of playing,,75
-357,i,Hamstring injury - Unknown return date,0,0
+356,a,,,100
+357,d,Hamstring injury - 75% chance of playing,0,75
 358,a,,,
 359,a,,100,100
 360,i,Knee injury - Unknown return date,0,0
@@ -473,12 +473,12 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 384,a,,,
 386,a,,,
 387,a,,100,100
-388,d,Unspecified injury - 75% chance of playing,,75
-389,a,,100,100
+388,d,Hip injury - 75% chance of playing,,75
+389,d,Unspecified injury - 50% chance of playing,100,50
 390,a,,,
-391,d,Unspecified injury - 75% chance of playing,,75
+391,a,,,100
 392,a,,,
-393,a,,,
+393,d,Unspecified injury - 50% chance of playing,,50
 394,u,Has joined Burnley on loan for the rest of the season,0,0
 395,a,,,
 396,a,,,
@@ -504,7 +504,7 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 43,a,,100,100
 131,i,Hamstring injury - Unknown return date,0,0
 162,a,,,
-325,a,,100,100
+325,d,Unspecified injury - 75% chance of playing,100,75
 412,a,,,
 413,u,Has joined Celta Vigo on loan for the rest of the season,0,0
 414,a,,100,100
@@ -585,7 +585,7 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 478,a,,,
 479,u,Has joined Charlton Athletic on loan for the rest of the season,0,0
 480,a,,100,100
-482,a,,100,100
+482,i,Unspecified injury - Unknown return date,100,0
 483,a,,100,100
 484,u,Has joined AC Milan on loan for the rest of the season,0,0
 485,u,Has joined Lille on loan for the rest of the season,0,0
@@ -600,9 +600,9 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 581,a,,,
 590,a,,,
 112,a,,100,100
-147,a,,100,100
+147,i,Calf injury - Expected back 29 Nov,100,0
 401,a,,100,100
-403,i,Muscular injury - Expected back 21 Nov,0,0
+403,a,,0,100
 455,a,,100,100
 494,u,Has joined Juventus on loan for the rest of the season,0,0
 495,a,,,
@@ -622,13 +622,13 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 511,u,Has joined FC Porto on loan for the rest of the season,0,0
 512,a,,100,100
 513,i,Knee injury - Unknown return date,0,0
-514,d,Ankle injury - 75% chance of playing,,75
+514,i,Ankle injury - Expected back 6 Dec,,0
 515,a,,100,100
 516,a,,100,100
 517,i,Knee injury - Unknown return date,0,0
 518,u,Has joined Juventus on loan for the rest of the season,0,0
 519,a,,,
-520,i,Knee injury - Unknown return date,0,0
+520,a,,0,100
 521,a,,100,100
 522,a,,,
 523,u,Has joined FC Köln on loan for the rest of the season,0,0
@@ -656,7 +656,7 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 541,a,,100,100
 542,a,,,
 543,i,Muscular injury - Unknown return date,0,0
-544,d,Calf injury - 75% chance of playing,,75
+544,i,Calf injury - Unknown return date,,0
 545,a,,,
 546,u,Has joined Ajax on loan for the rest of the season,0,0
 547,i,Knee injury - Unknown return date,0,0
@@ -664,7 +664,7 @@ id,status,news,chance_of_playing_this_round,chance_of_playing_next_round
 549,a,,,
 550,a,,,
 551,a,,,
-552,d,Muscular injury - 75% chance of playing,100,75
+552,i,Muscular injury - Unknown return date,100,0
 553,a,,100,100
 612,a,,100,100
 613,a,,,
